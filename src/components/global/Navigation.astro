@@ -1,0 +1,91 @@
+<div
+  class=" "
+
+>
+  <div class=" px-8 md:px-12 mx-auto max-w-7xl py-2  lg:px-32 text-xs">
+    <div
+      class="relative flex flex-col w-full  mx-auto   rounded-xl md:rounded-full md:items-center md:justify-between md:flex-row "
+    >
+      <div
+        class="flex flex-row items-center justify-between md:justify-start"
+      >
+        <a
+          class="text-black hover:text-zinc-500 items-center font-normal uppercase gap-3 inline-flex "
+          href="/"
+        >
+
+         Breadcrumb
+        </a>
+        <button
+          id="menuBtn"
+          type="button"
+          style="cursor: pointer;"
+        >
+          Menu
+        </button>
+      </div>
+      <nav
+        id="nav-menu"
+        class="flex-col flex-grow hidden py-12 md:py-0 md:flex md:items-end justify-center md:flex-row nav-menu"
+      >
+        <ul
+          class="space-y-2 list-none md:space-y-0 md:ml-auto items-center md:inline-flex justify-center text-center md:text-left gap-3"
+        >
+          <li>
+            <div class="relative">
+              <button class="text-black hover:text-zinc-500 flex items-center">
+                Usecases
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              <div class="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+                <div class="py-1" role="menu">
+                  <a href="/usecases/marketing" class="block px-4 py-2 text-sm text-black hover:bg-blue-50" role="menuitem">Marketing</a>
+                  <a href="/usecases/sales" class="block px-4 py-2 text-sm text-black hover:bg-blue-50" role="menuitem">Sales</a>
+                  <a href="/usecases/operations" class="block px-4 py-2 text-sm text-black hover:bg-blue-50" role="menuitem">Operations</a>
+                  <a href="/usecases/embedded-analytics" class="block px-4 py-2 text-sm text-black hover:bg-blue-50" role="menuitem">Embedded Analytics</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="/pricing" class="text-black hover:text-zinc-500">Pricing</a>
+          </li>
+          <li>
+            <a href="/blog" class="text-black hover:text-zinc-500">Blog</a>
+          </li>
+          <li>
+            <a href="/docs" class="text-black hover:text-zinc-500">Docs</a>
+          </li>
+          <li>
+            <a href="/signin" class="text-black hover:text-zinc-500">Sign in</a>
+          </li>
+          <li>
+            <a href="/get-started" class="text-black hover:text-zinc-500 bg-blue-50 px-4 py-2 rounded-full">Get Started</a>
+          </li>
+
+        </ul>
+        
+      </nav>
+
+      
+    </div>
+
+  </div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.getElementById('menuBtn');
+    const nav = document.getElementById('nav-menu');
+
+    if (menuButton && nav) {
+      menuButton.addEventListener("click", function () {
+        console.log("Button clicked!");
+        nav.classList.toggle("hidden");
+      });
+    } else {
+      console.log("Menu button or nav menu not found");
+    }
+  });
+</script>

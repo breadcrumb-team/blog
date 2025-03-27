@@ -1,0 +1,41 @@
+---
+
+const { title, url, description, pubDate, author, image, tags } = Astro.props;
+---
+
+<li>
+  <a href={url} title={title} class="group">
+    <article class="flex-1 h-full flex flex-col">
+      <div class="block w-full lg:col-span-2">
+        <img
+          class="aspect-[16/9] object-cover bg-center h-full w-full rounded-lg"
+          src={image}
+          alt={title}
+        />
+      </div>
+      <div
+        class="flex flex-col items-start justify-between h-full flex-1 w-full p-4"
+      >
+        <div>
+          <div class="inline-flex space-x-1 items-center">
+            <div class="flex text-sm text-zinc-400">
+              <time datetime="2020-03-16">{pubDate}</time>
+            </div>
+          </div>
+          <h4 class="title text-black mt-2 font-display text-xl text-pretty">
+            {title}
+          </h4>
+        </div>
+        <p class="mt-4 text-sm text-zinc-500 line-clamp-2">{description}</p>
+
+        <div class="mt-4 flex space-x-2 flex-wrap gap-y-2">
+          {
+            tags.map((tag) => (
+              <span class="text-sm bg-white px-3 rounded-full font-medium text-black">{tag}</span>
+            ))
+          }
+        </div>
+      </div>
+    </article>
+  </a>
+</li>
