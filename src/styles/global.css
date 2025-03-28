@@ -15,8 +15,8 @@
   --color-blue-300: #7dd3fc;
   --color-blue-400: #38bdf8;
   --color-blue-500: #0ea5e9;
-  --color-blue-600: #222226;
-  --color-blue-700: #0369a1;
+  --color-blue-600: #59479C;
+  --color-blue-700: #7D64DA;
   --color-blue-800: #075985;
   --color-blue-900: #0c4a6e;
   --color-blue-950: #082f49;
@@ -193,7 +193,7 @@ border-radius: 50px;
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--color-gray-600);
   cursor: pointer;
 }
@@ -318,10 +318,31 @@ font-weight:500;
 
 /* Responsive */
 @media (max-width: 768px) {
-  .header-nav-links {
-    display: none;
+ .header-nav-links {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #f1efedb3;
+      backdrop-filter: blur(7px);
+      padding: 1rem;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+    .header-nav-links.signin.transparent-bg.show-menu {
+    top: 320%;
+}
+.header-nav-links.main-pages.transparent-bg.show-menu {
+    z-index: 999;
+}
+    .header-nav-links.show-menu {
+      display: flex;
+    }
+  .dropdown-menu {
+    z-index: 999;
   }
-  
   .footer-content ul {
     display: block;
   }
