@@ -4,9 +4,9 @@ author: Victor Tang
 title: How to Get Better Analytics from Google Forms
 description: "Learn how to overcome Google Forms' limited analytics capabilities and transform your form data into powerful interactive dashboards using AI-powered tools like Breadcrumb."
 image:
-  url: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  url: "https://site-assets.plasmic.app/8b337f9b26b583a4eb4e26e3a9f426ea.png"
   alt: "Data visualization showing colorful charts and graphs"
-tags: ["Analytics", "Google Forms", "Data Visualization"]
+tags: ["How-To Guides"]
 ---
 
 **Google Forms is super handy.** People pick it for lots of reasons.

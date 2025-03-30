@@ -1,12 +1,12 @@
 ---
-pubDate: 2024-00-02
+pubDate: 2024-10-02
 author: Victor Tang
 title: Organize Your Data Visualizations in Multiple Dashboards
 description: "Breadcrumb Groups, a powerful new feature that allows you to organize multiple dashboards in one workspace for seamless data analysis. "
 image:
-  url: "https://images.unsplash.com/photo-1600988718561-b2dde28f8a05?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  url: "https://site-assets.plasmic.app/9c1c8d9f57f33190767af53f7ffb11fa.png"
   alt: "#"
-tags: ["Visualization", "CDN"]
+tags: ["Product"]
 ---
 
 At Breadcrumb.ai, we’re constantly evolving to ensure our users get the most efficient and engaging experience out of their AI data analytics. That’s why we’re thrilled to introduce Groups, a brand-new feature designed to enhance how you organize and interact with your data visualizations.

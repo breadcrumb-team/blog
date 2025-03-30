@@ -4,9 +4,9 @@ author: Victor Tang
 title: 4 AI-Powered Dashboard Tools You Should Know 
 description: "In today’s data-driven landscape, AI-powered dashboards simplify the process of turning large datasets into actionable insights. This post compares five leading AI data dashboards, including our own, Breadcrumb.ai, to help you choose the right tool for your needs."
 image:
-  url: "https://images.unsplash.com/photo-1600988718561-b2dde28f8a05?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  url: "https://site-assets.plasmic.app/c3996c5d43d5de82245e98a4cceaded8.png"
   alt: "#"
-tags: ["Visualization", "CDN"]
+tags: ["Product", "AI & Automation"]
 ---
 
 In today’s data-driven world, making sense of large datasets can be a challenge for businesses and professionals alike. That’s where AI data analytic dashboards come in. These tools help users automatically generate insights and visualizations from their data, reducing the time spent on manual analysis. In this post, we’ll compare five popular AI-powered data dashboards, including our own product, Breadcrumb.ai.

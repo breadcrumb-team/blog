@@ -4,9 +4,9 @@ author: Victor Tang
 title: Building Truly Self-Service Data Products - Why Removing Data Experts is Key
 description: "Building truly self-service data products means removing dependencies on data experts by designing intuitive, automated systems. "
 image:
-  url: "https://images.unsplash.com/photo-1600988718561-b2dde28f8a05?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  url: "https://site-assets.plasmic.app/5132b5b15612c4e2444adf91c298e50e.png"
   alt: "#"
-tags: ["Visualization", "CDN"]
+tags: ["Analytics"]
 ---
 
 How often do you recieved a dashboard you don't truly understand? Creating a **self-service data product** is one of the most transformative goals for modern organizations. It means faster decision-making, less dependency on specialized teams, and broader access to insights. But achieving this vision requires a bold shift in thinking—one that might feel counterintuitive at first:

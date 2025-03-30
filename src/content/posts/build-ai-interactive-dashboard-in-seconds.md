@@ -4,9 +4,9 @@ author: Victor Tang
 title: Build an AI Interactive Dashboard in Seconds (Video Guide)
 description: "Learn how to set up and use Breadcrumb’s AI-powered data analytics dashboard with our quick guide and “Getting Started” video."
 image:
-  url: "https://images.unsplash.com/photo-1600988718561-b2dde28f8a05?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  url: "https://site-assets.plasmic.app/10f5f358bf17a01bac12f295ba47ba4e.png"
   alt: "#"
-tags: ["Visualization", "CDN"]
+tags: ["How-To Guides"]
 ---
 Whether you’re a seasoned professional or just starting out, our dashboard is designed to help you make informed, data-driven decisions. In this post, we’ll walk you through the process of getting started with Breadcrumb, guiding you step by step through our intuitive interface and powerful features.
 

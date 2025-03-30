@@ -4,9 +4,9 @@ author: Victor Tang
 title: Master Your Data Creations with Enhanced Chart Controls
 description: "Make Google do a double-take with Tailwind CSS's SEO magic. It's like giving your website a makeover that even the search engines can't resist. Astro.js is the wingman for this enchanting journey."
 image:
-  url: "Discover the power of enhanced chart controls and faster iterations with our new customization panel."
+  url: "https://site-assets.plasmic.app/b7f8c0eadf57c3133af04f37a9f548ed.png"
   alt: "#"
-tags: ["Visualization", "CDN"]
+tags: ["Product"]
 ---
 
 We're excited to unveil a powerful new feature designed to revolutionize your AI data analytics experience: Customizable Panel. Breadcrumb has always been about simplifying complex data analysis, and now, with the customizable panel, we're putting even more control in your hands.

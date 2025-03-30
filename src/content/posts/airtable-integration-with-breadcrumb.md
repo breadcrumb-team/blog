@@ -4,9 +4,9 @@ author: Victor Tang
 title: Visualize Your Airtable Data with Breadcrumb's Powerful Analytics
 description: "Transform your Airtable data into actionable insights with Breadcrumb's powerful visualization and analytics tools. Learn how to create beautiful, interactive dashboards that help you make better business decisions."
 image:
-  url: "https://images.unsplash.com/photo-1600988718561-b2dde28f8a05?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  url: "https://site-assets.plasmic.app/c5d9b6519eb53570638cb3a43f61b670.png"
   alt: "Data visualization dashboard showing colorful charts and graphs"
-tags: ["Analytics", "Data Visualization", "Airtable", "Business Intelligence"]
+tags: ["How-To Guides", "Use Cases"]
 ---
 ### What happens when you combine two of the most flexible tools available? 
 

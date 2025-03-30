@@ -32,13 +32,14 @@ const { posts } = Astro.props;
 
 <BaseLayout pageTitle={tag}>
   <section>
-    <div
-      class="px-8 py-12 md:px-12 mx-auto lg:pb-24 max-w-7xl lg:px-32 lg:pt-48"
-    >
-      <!-- Content omitted for brevity -->
-      <ul
-        class="grid grid-cols-1 mt-12 gap-1 gap-y-24 lg:grid-cols-3 sm:grid-cols-2"
-      >
+    <div class="px-8 py-12 md:px-12 mx-auto lg:pt-24 max-w-7xl lg:px-32">
+      <div class="lg:text-center">
+        <h1 class="text-4xl tracking-tight text-balance mt-12 lg:mt-16 font-medium font-display text-black md:text-8xl">
+          Posts tagged with "{tag}"
+        </h1>
+      </div>
+
+      <ul class="grid grid-cols-1 mt-12 gap-8 gap-y-24 lg:grid-cols-3 sm:grid-cols-2">
         {
           posts.map((post) => (
             <EntriesOne

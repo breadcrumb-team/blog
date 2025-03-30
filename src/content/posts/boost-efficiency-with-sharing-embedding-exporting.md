@@ -4,9 +4,9 @@ author: Victor Tang
 title: Boost Team Efficiency with Data Sharing, Embedding, Reporting and more
 description: "Streamline your workflow with Breadcrumb’s new sharing and collaboration features. Connect to multiple data sources, including Airtable, for dynamic, instantly shareable visualizations."
 image:
-  url: "https://images.unsplash.com/photo-1600988718561-b2dde28f8a05?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  url: "https://site-assets.plasmic.app/4a16038feaa4e1e80538f4ae35c37334.png"
   alt: "#"
-tags: ["Visualization", "CDN"]
+tags: ["How-To Guides", "Product"]
 ---
 You’ve just created a stunning data visualization that perfectly captures a critical insight for your team. Excited to share it, you realize you need to compile it into a comprehensive report first. Hours are spent formatting, adding context, and ensuring the data is up-to-date. By the time you’re done, the urgency of the insight has diminished, and the potential impact is lost. This frustrating process is all too common.  
 

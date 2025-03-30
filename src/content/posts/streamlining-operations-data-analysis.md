@@ -4,9 +4,9 @@ author: Victor Tang
 title: Streamlining Operations Data Analysis with Breadcrumb
 description: "Optimize your operations with Breadcrumb. Simplify data integration, ensure data quality, and gain actionable insights effortlessly with our AI-powered dashboard."
 image:
-  url: "https://images.unsplash.com/photo-1585190775852-3e6bb2b80184?q=80&w=2788&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  url: "https://site-assets.plasmic.app/7cb9a3cd1f3e904b9c196f53fe9ef858.png"
   alt: "#"
-tags: ["CDN"]
+tags: ["Analytics"]
 ---
 
 ### The Difficulty of Optimizing Inventory and Order Management with Data

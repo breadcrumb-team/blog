@@ -4,9 +4,9 @@ author: Victor Tang
 title: Boost Analysis Precision and Reporting Efficiency with Better Visualizations
 description: "Join forces with the dynamic duo of web development – Tailwind CSS and astro.js. They're like Batman and Robin, but for your coding adventures. No capes required"
 image:
-  url: "https://images.unsplash.com/photo-1586380951230-e6703d9f6833?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  url: "https://site-assets.plasmic.app/d13a746e6219b4e359479d13de7dd276.png"
   alt: "#"
-tags: ["Guides"]
+tags: ["Analytics", "How-To Guides"]
 ---
 
 Ever wished analyzing sales trends and reporting could be as easy as pressing a button? While we’re not quite at StarTrek level automation (yet), Breadcrumb’s latest update brings us a step closer to our vision. Let’s dive into how our new features can help you monitor performance and create detailed reports for your stakeholders.

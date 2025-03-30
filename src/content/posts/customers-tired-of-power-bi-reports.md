@@ -1,12 +1,12 @@
 ---
-pubDate: 2024-03-13
+pubDate: 2025-03-13
 author: Victor Tang
 title: Why Your Customers Are Tired of Waiting for Power BI Reports
 description: "Power BI dashboards often lead to slow updates and limited flexibility. AI-powered reporting allows customers to ask questions, generate custom visuals, and uncover insights instantly — without developer support."
 image:
-  url: "https://images.unsplash.com/photo-1600988718561-b2dde28f8a05?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  url: "https://site-assets.plasmic.app/af33686d7919224114d5756294365e45.png"
   alt: "#"
-tags: ["Visualization", "CDN"]
+tags: ["Analytics", "Embedding"]
 ---
 
 For businesses that rely on customer data — whether in **sales, customer success, or product teams** — generating accurate and timely customer reports is critical. Reports help track customer health, measure performance, and identify opportunities for growth. But as one company recently shared, the process of creating and managing customer reports is often more frustrating than insightful.
