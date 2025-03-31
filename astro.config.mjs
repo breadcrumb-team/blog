@@ -21,6 +21,6 @@ export default defineConfig({
     drafts: true
   },
   site: 'https://breadcrumb-team.github.io',
-  base: '/blog',
+  base: '/Blog',
   integrations: [sitemap(), mdx()]
 });
