@@ -43,7 +43,7 @@ const { posts } = Astro.props;
         {
           posts.map((post) => (
             <EntriesOne
-              url={"/posts/" + post.slug}
+              url={"/Blog/posts/" + post.slug}
               title={post.data.title}
               description={post.data.description}
               alt={post.data.title}
