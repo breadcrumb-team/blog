@@ -20,6 +20,7 @@ export default defineConfig({
     skipInline: false,
     drafts: true
   },
-  site: 'https://yourwebsite.com',
+  site: 'https://breadcrumb-team.github.io',
+  base: '/Blog',
   integrations: [sitemap(), mdx()]
 });
