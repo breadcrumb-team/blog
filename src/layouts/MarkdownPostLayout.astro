@@ -8,19 +8,19 @@ import { AstroSeo } from "@astrolib/seo";
 Use AstroSeo in all the pages you want different Seo than the index page
 -->
 <AstroSeo
-  title="Breadcrumb | Turn raw data into reports your customers want"
-  description="AI-native data analytics reporting across all your customers at scale. Automate personalized reporting with AI-powered insights, data visualization, and narrative generation."
+  title={`${frontmatter.title} | Breadcrumb`}
+  description={frontmatter.description}
   canonical="https://www.breadcrumb.ai"
   openGraph={{
     url: "https://www.breadcrumb.ai",
-    title: "Breadcrumb | AI-powered Data Analytics & Reporting",
-    description: "Transform raw data into actionable insights with AI-powered analytics. Automate reporting, visualize data, and deliver personalized insights at scale.",
+    title: `${frontmatter.title} | Breadcrumb`,
+    description: frontmatter.description,
     images: [
       {
-        url: "https://www.breadcrumb.ai/og-image.jpg",
+        url: frontmatter.image.url,
         width: 1200,
         height: 630,
-        alt: "Breadcrumb AI Analytics Platform",
+        alt: frontmatter.image.alt,
         type: "image/jpeg",
       }
     ],
@@ -37,7 +37,7 @@ Use AstroSeo in all the pages you want different Seo than the index page
     <div class="px-8 py-12 md:px-12 mx-auto lg:pt-24 max-w-7xl lg:px-32">
       <div class="lg:text-center">
         <img
-          class="lg:h-120 w-full object-cover object-center" 
+          class="lg:h-120 w-full object-cover object-center"
           src={frontmatter.image.url}
           alt={frontmatter.image.alt}
         />
