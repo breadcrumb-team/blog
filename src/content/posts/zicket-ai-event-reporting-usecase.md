@@ -4,7 +4,7 @@ author: Victor Tang
 title: Zicket revolutionizes post event reporting with Breadcrumb AI
 description: "Zicket replaced manual spreadsheets with Breadcrumb.ai to deliver faster, AI-powered event reports that clients and sponsors love."
 image:
-  url: "public/images/zicket-case-study-hero.png"
+  url: "/blog/images/zicket-case-study-hero.png"
   alt: "Zicket Case Study"
 tags: ["Case Study", "Live Events"]
 ---
@@ -40,7 +40,7 @@ Each event generates large volumes of crucial data: refill amounts, sales figure
 
 With Breadcrumb.ai, Zicket has transformed its post-event reporting process, now turning raw event data into polished, visual dashboards in a matter of minutes. After each event concludes, the Zicket team simply uploads their CSV files containing the transaction data, and Breadcrumb’s powerful AI handles the rest. The AI intelligently detects key trends, automatically generates insightful summaries, and surfaces visually compelling insights without manual intervention.
 
-![Live event reporting with Breadcrumb.ai](public/images/live-event-dashboard-breadcrumbai.png)
+![Live event reporting with Breadcrumb.ai](/blog/images/live-event-dashboard-breadcrumbai.png)
 
 Whether the focus is on understanding refill station performance, analyzing vendor sales figures, or examining transaction activity patterns across the event timeline, Zicket leverages Breadcrumb to quickly comprehend – and effectively communicate – the key performance indicators of each event to their clients.
 
@@ -57,7 +57,7 @@ By effortlessly spotting the top-grossing vendors and identifying potentially un
 > #### “I just load the data, prompt it with what I need, and it spits out exactly the kind of report I’d usually spend hours creating. The AI understands what I’m after — and clients love how visual it is.”
 
 
-![Live event reporting with Breadcrumb.ai](public/images/live-report-breadcrumbai.png)
+![Live event reporting with Breadcrumb.ai](/blog/images/live-report-breadcrumbai.png)
 ---
 
 ### The Impact
