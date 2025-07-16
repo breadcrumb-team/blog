@@ -4,6 +4,8 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import EntriesOne from "@/components/entries/EntriesOne.astro";
 import Hero from "@/components/landing/Hero.astro";
 import Cta from "@/components/global/Cta.astro";
+import { AstroSeo } from "@astrolib/seo";
+
 const allPosts = await getCollection("posts");
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 
@@ -12,6 +14,34 @@ const sortedPosts = allPosts.sort(
   (a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)
 );
 ---
+
+<AstroSeo
+  title="Breadcrumb | Turn raw data into reports your customers want"
+  description="AI-native data analytics reporting across all your customers at scale. Automate personalized reporting with AI-powered insights, data visualization, and narrative generation."
+  canonical="https://www.breadcrumb.ai"
+  openGraph={{
+    url: "https://www.breadcrumb.ai",
+    title: "Breadcrumb | AI-powered Data Analytics & Reporting",
+    description: "Transform raw data into actionable insights with AI-powered analytics. Automate reporting, visualize data, and deliver personalized insights at scale.",
+    images: [
+      {
+        url: "/blog/images/breadcrumb-ai-social.png",
+        width: 1200,
+        height: 630,
+        alt: "Breadcrumb.ai Analytics Reporting Platform",
+        type: "image/jpeg",
+      },
+    ],
+    site_name: "Breadcrumb",
+    type: "website",
+    locale: "en_US",
+  }}
+  twitter={{
+    handle: "@BreadcrumbAI",
+    site: "@BreadcrumbAI",
+    cardType: "summary_large_image",
+  }}
+/>
 
 <BaseLayout>
   <Hero />

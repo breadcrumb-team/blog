@@ -2,6 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import EntriesOne from "@/components/entries/EntriesOne.astro";
 import { getCollection } from "astro:content";
+import { AstroSeo } from "@astrolib/seo";
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
@@ -29,6 +30,33 @@ export async function getStaticPaths() {
 const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
+
+<AstroSeo
+  title={`${tag} - Blog Posts | Breadcrumb`}
+  description={`Explore our latest blog posts about ${tag}. Discover insights, tips, and strategies related to ${tag} in data analytics and reporting.`}
+  canonical={`https://www.breadcrumb.ai/tags/${tag}`}
+  openGraph={{
+    url: `https://www.breadcrumb.ai/tags/${tag}`,
+    title: `${tag} - Blog Posts | Breadcrumb`,
+    description: `Explore our latest blog posts about ${tag}. Discover insights, tips, and strategies related to ${tag} in data analytics and reporting.`,
+    images: [
+      {
+        url: "/blog/images/breadcrumb-ai-social.png",
+        width: 1200,
+        height: 630,
+        alt: `Breadcrumb ${tag} Blog Posts`,
+        type: "image/jpeg",
+      },
+    ],
+    site_name: "Breadcrumb",
+    type: "website",
+  }}
+  twitter={{
+    handle: "@BreadcrumbAI",
+    site: "@BreadcrumbAI",
+    cardType: "summary_large_image",
+  }}
+/>
 
 <BaseLayout pageTitle={tag}>
   <section>
