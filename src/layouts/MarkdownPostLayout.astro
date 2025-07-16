@@ -17,21 +17,34 @@ Use AstroSeo in all the pages you want different Seo than the index page
     description: frontmatter.description,
     images: [
       {
-        url: frontmatter.image.url,
+        url: `https://www.breadcrumb.ai${frontmatter.image.url}`,
         width: 1200,
         height: 630,
         alt: frontmatter.image.alt,
-        type: "image/jpeg",
+        type: frontmatter.image.url.endsWith('.png') ? "image/png" : frontmatter.image.url.endsWith('.jpg') || frontmatter.image.url.endsWith('.jpeg') ? "image/jpeg" : "image/png",
       }
     ],
     site_name: "Breadcrumb",
+    type: "article",
+    locale: "en_US",
   }}
   twitter={{
     handle: "@BreadcrumbAI",
     site: "@BreadcrumbAI",
     cardType: "summary_large_image",
   }}
+
+  <meta property="og:image:secure_url" content={`https://www.breadcrumb.ai${frontmatter.image.url}`} />
+  <meta property="og:image:type" content={frontmatter.image.url.endsWith('.png') ? "image/png" : frontmatter.image.url.endsWith('.jpg') || frontmatter.image.url.endsWith('.jpeg') ? "image/jpeg" : "image/png"} />
 />
+
+<!-- Additional LinkedIn-specific meta tags -->
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={frontmatter.image.alt} />
+<meta property="article:published_time" content={frontmatter.pubDate.toISOString()} />
+<meta property="article:section" content="Blog" />
+
 <BaseLayout>
   <section>
     <div class="px-8 py-12 md:px-12 mx-auto lg:pt-24 max-w-7xl lg:px-32">
