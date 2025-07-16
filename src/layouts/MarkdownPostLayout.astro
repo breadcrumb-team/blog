@@ -1,17 +1,13 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
-import { AstroSeo } from "@astrolib/seo";
 ---
 
-<!---
-Use AstroSeo in all the pages you want different Seo than the index page
--->
-<AstroSeo
-  title={`${frontmatter.title} | Breadcrumb`}
-  description={frontmatter.description}
-  canonical={`https://www.breadcrumb.ai/blog/${frontmatter.slug || ''}`}
-  openGraph={{
+<BaseLayout seo={{
+  title: `${frontmatter.title} | Breadcrumb`,
+  description: frontmatter.description,
+  canonical: `https://www.breadcrumb.ai/blog/${frontmatter.slug || ''}`,
+  openGraph: {
     url: `https://www.breadcrumb.ai/blog/${frontmatter.slug || ''}`,
     title: `${frontmatter.title} | Breadcrumb`,
     description: frontmatter.description,
@@ -27,23 +23,20 @@ Use AstroSeo in all the pages you want different Seo than the index page
     site_name: "Breadcrumb",
     type: "article",
     locale: "en_US",
-  }}
-  twitter={{
+  },
+  twitter: {
     handle: "@BreadcrumbAI",
     site: "@BreadcrumbAI",
     cardType: "summary_large_image",
-  }}
-/>
-
-<!-- Additional LinkedIn-specific meta tags -->
-<meta property="og:image" content={`https://www.breadcrumb.ai${frontmatter.image.url}`} />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
-<meta property="og:image:alt" content={frontmatter.image.alt} />
-<meta property="article:published_time" content={frontmatter.pubDate.toISOString()} />
-<meta property="article:section" content="Blog" />
-
-<BaseLayout>
+  },
+  additionalMeta: [
+    { property: "og:image:width", content: "1200" },
+    { property: "og:image:height", content: "630" },
+    { property: "og:image:alt", content: frontmatter.image.alt },
+    { property: "article:published_time", content: frontmatter.pubDate.toISOString() },
+    { property: "article:section", content: "Blog" },
+  ]
+}}>
   <section>
     <div class="px-8 py-12 md:px-12 mx-auto lg:pt-24 max-w-7xl lg:px-32">
       <div class="lg:text-center">
