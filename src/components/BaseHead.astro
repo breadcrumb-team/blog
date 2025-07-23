@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { AstroSeo } from "@astrolib/seo";
+import GoogleAnalytics from "./GoogleAnalytics.astro";
 
 interface Props {
   seo?: {
@@ -97,3 +98,6 @@ const { seo } = Astro.props;
   rel="stylesheet"
 />
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+<!-- Google Analytics -->
+<GoogleAnalytics />
