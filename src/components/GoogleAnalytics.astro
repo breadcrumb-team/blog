@@ -21,14 +21,10 @@
         send_page_view: true,
         // Custom dimensions for blog tracking
         custom_map: {
-          'custom_parameter_1': 'post_author',
-          'custom_parameter_2': 'post_category',
-          'custom_parameter_3': 'reading_time',
-          'custom_parameter_4': 'content_type'
+          'custom_parameter_1': 'content_type'
         },
         // Set content type to distinguish blog from main site
-        custom_parameter_4: window.location.pathname.startsWith('/blog') ? 'blog' : 'main_site'
+        custom_parameter_1: window.location.pathname.startsWith('/blog') ? 'blog' : 'main_site'
       });
     </script>
   </>
-)}
