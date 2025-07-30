@@ -2,7 +2,7 @@
 pubDate: 2025-07-28
 author: Victor Tang
 title: 20 Live Event Statistics That Prove It’s Time to Track Better
-description: "Discover 20 essential statistics about live events and stadiums in 2025. Learn why real-time analytics and smart tracking tools are critical for improving fan experience, boosting revenue, and proving ROI to sponsors."
+description: "Discover 20 essential statistics about live events and stadiums in 2025. Learn why real-time analytics and smart tracking tools are critical and why it's time to adopt agentic reporting."
 image:
   url: "/blog/images/20-stats-live-events-future-communication.png"
   alt: "#"
