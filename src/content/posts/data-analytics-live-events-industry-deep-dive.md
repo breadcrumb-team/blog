@@ -4,7 +4,7 @@ author: Victor Tang
 title: "The Complete Guide to Data Analytics for Live Events: Industry Deep Dive"
 description: "Explore the evolving landscape of data analytics in live events, from traditional tools to AI-powered solutions. Discover how modern analytics are transforming event management, attendee engagement, and ROI measurement."
 image:
-  url: "/blog/images/events/live-event-dashboard-breadcrumbai.png"
+  url: "/blog/images/events/live-event-analytics-tools.png"
   alt: "Live event analytics dashboard showing real-time metrics and insights"
 tags: ["Data Analytics", "Live Events", "AI Analytics", "Event Technology", "Industry Analysis"]
 ---
