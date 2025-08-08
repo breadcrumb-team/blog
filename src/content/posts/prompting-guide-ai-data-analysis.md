@@ -1,12 +1,12 @@
 ---
-pubDate: 2025-08-06
+pubDate: 2025-08-08
 author: Victor Tang
 title: A Practical Guide to Prompting for AI-powered Data Analysis
-description: "Learn how to write better prompts for AI-powered data analysis tools like Breadcrumb. Discover practical strategies for getting faster, more accurate insights from your data through effective prompting techniques."
+description: "Master the art of prompting for AI data analysis. Learn practical techniques to get better insights faster from tools like Breadcrumb, with real examples and conversation strategies."
 image:
   url: "/blog/images/tyler-franta-iusJ25iYu1c-unsplash.jpg"
   alt: "Conversational AI Enhancement"
-tags: ["Guide"]
+tags: ["Reporting", "Agentic"]
 ---
 When you’re diving into data, the way you ask a question matters—but maybe not in the way you think.
 
