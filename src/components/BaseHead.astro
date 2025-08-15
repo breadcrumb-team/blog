@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import { AstroSeo } from "@astrolib/seo";
 import GoogleAnalytics from "./GoogleAnalytics.astro";
+import MixpanelTracking from "./MixpanelTracking.astro";
 
 interface Props {
   seo?: {
@@ -101,3 +102,6 @@ const { seo } = Astro.props;
 
 <!-- Google Analytics -->
 <GoogleAnalytics />
+
+<!-- Mixpanel Tracking -->
+<MixpanelTracking />
