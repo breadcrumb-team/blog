@@ -4,7 +4,7 @@ author: Victor Tang
 title: Organize Your Data Visualizations in Multiple Dashboards
 description: "Breadcrumb Groups, a powerful new feature that allows you to organize multiple dashboards in one workspace for seamless data analysis. "
 image:
-  url: "https://site-assets.plasmic.app/9c1c8d9f57f33190767af53f7ffb11fa.png"
+  url: "/blog/images/best-tableau-alternatives-banner-product-update.png"
   alt: "#"
 tags: ["Product"]
 ---
