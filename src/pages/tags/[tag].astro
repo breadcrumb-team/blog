@@ -2,6 +2,7 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import EntriesOne from "@/components/entries/EntriesOne.astro";
 import { getCollection } from "astro:content";
+import { formatDateShort } from "@/utils/dateFormat";
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("posts");
@@ -16,7 +17,7 @@ export async function getStaticPaths() {
     );
     // Sort filtered posts by date in descending order
     const sortedPosts = filteredPosts.sort(
-      (a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)
+      (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
     );
 
     return {
@@ -72,7 +73,7 @@ const { posts } = Astro.props;
               title={post.data.title}
               description={post.data.description}
               alt={post.data.title}
-              pubDate={post.data.pubDate.toString().slice(0, 10)}
+              pubDate={formatDateShort(post.data.pubDate)}
               author={post.data.author}
               image={post.data.image.url}
               tags={post.data.tags}
