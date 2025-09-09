@@ -17,3 +17,4 @@ export function formatDateShort(date: Date): string {
   
   return date.toLocaleDateString('en-US', options);
 }
+
