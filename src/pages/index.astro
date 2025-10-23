@@ -4,16 +4,44 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import EntriesOne from "@/components/entries/EntriesOne.astro";
 import Hero from "@/components/landing/Hero.astro";
 import Cta from "@/components/global/Cta.astro";
+import { formatDateShort } from "@/utils/dateFormat";
+
 const allPosts = await getCollection("posts");
 const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 
 // Sort posts by date in descending order (newest first)
 const sortedPosts = allPosts.sort(
-  (a, b) => new Date(b.data.pubDate) - new Date(a.data.pubDate)
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
 );
 ---
 
-<BaseLayout>
+<BaseLayout seo={{
+  title: "Breadcrumb | Turn raw data into reports your customers want",
+  description: "AI-native data analytics reporting across all your customers at scale. Automate personalized reporting with AI-powered insights, data visualization, and narrative generation.",
+  canonical: "https://www.breadcrumb.ai",
+  openGraph: {
+    url: "https://www.breadcrumb.ai",
+    title: "Breadcrumb | AI-powered Data Analytics & Reporting",
+    description: "Transform raw data into actionable insights with AI-powered analytics. Automate reporting, visualize data, and deliver personalized insights at scale.",
+    images: [
+      {
+        url: "/blog/images/breadcrumb-ai-social.png",
+        width: 1200,
+        height: 630,
+        alt: "Breadcrumb.ai Analytics Reporting Platform",
+        type: "image/jpeg",
+      },
+    ],
+    site_name: "Breadcrumb",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    handle: "@BreadcrumbAI",
+    site: "@BreadcrumbAI",
+    cardType: "summary_large_image",
+  }
+}}>
   <Hero />
   <section>
     <div class="px-8 md:px-12 mx-auto max-w-7xl lg:px-32">
@@ -36,7 +64,7 @@ const sortedPosts = allPosts.sort(
               title={post.data.title}
               description={post.data.description}
               alt={post.data.title}
-              pubDate={post.data.pubDate.toString().slice(0, 10)}
+              pubDate={formatDateShort(post.data.pubDate)}
               author={post.data.author}
               image={post.data.image.url}
               tags={post.data.tags}

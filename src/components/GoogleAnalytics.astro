@@ -1,0 +1,44 @@
+---
+// Google Analytics 4 Component
+// This component handles GA4 tracking with privacy compliance
+---
+
+  <>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2KM2HYRBMQ"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2KM2HYRBMQ', {
+        page_title: document.title,
+        page_location: window.location.href,
+        // Privacy settings
+        anonymize_ip: true,
+        allow_google_signals: false,
+        allow_ad_personalization_signals: false,
+        // Enhanced measurement settings
+        send_page_view: true,
+        // Custom dimensions for blog tracking
+        custom_map: {
+          'custom_parameter_1': 'content_type'
+        },
+        // Set content type to distinguish blog from main site
+        custom_parameter_1: window.location.pathname.startsWith('/blog') ? 'blog' : 'main_site'
+      });
+    </script>
+
+    <!-- eLLMo GTM -->
+    <script is:inline>(function(w){ w.ellmoDL = w.ellmoDL || []; })(window);</script>
+
+    <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','ellmoDL','GTM-T9FG7NJ8');</script>
+
+    <!-- Ellmo AI Optimization Script -->
+    <script id="ellmo-ai-optimization-script" src="https://www.tryellmo.ai/public-api/generic?c=5b83828f-7b6a-4e65-afe9-4ac010d94f4a&asset=script.js" defer></script>
+
+    <script id="ellmo-ai-embedded-content-v2" src="https://www.tryellmo.ai/public-api/embedded-schema?c=5b83828f-7b6a-4e65-afe9-4ac010d94f4a&t=structured.json" defer></script>
+  </>

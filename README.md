@@ -40,6 +40,8 @@ npm run preview
 
 Pushing to `main` will automatically deploy the changes to production.
 
+The site is currently deployed to GitHub Pages. To make it look like a part of the landing page, which is a Next.js app on Vercel, we're not using GitHub Pages custom domain. Instead, we're proxying the site through the landing page. All traffic to /blog/* from the landing page is proxied to the blog site.
+
 ## Adding Blog Posts
 
 Blog posts are written in MDX format and should be placed in the `src/content/blog/` directory. Here's how to create a new blog post:
