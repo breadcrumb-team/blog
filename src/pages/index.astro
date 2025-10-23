@@ -32,7 +32,7 @@ const sortedPosts = allPosts.sort(
         {
           sortedPosts.map((post) => (
             <EntriesOne
-              url={"/blog/" + post.slug}
+              url={`${(import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/')}${post.slug}`}
               title={post.data.title}
               description={post.data.description}
               alt={post.data.title}

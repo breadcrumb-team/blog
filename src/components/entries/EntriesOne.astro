@@ -1,41 +1,44 @@
 ---
 
 const { title, url, description, pubDate, author, image, tags } = Astro.props;
+const base = import.meta.env.BASE_URL.endsWith("/")
+  ? import.meta.env.BASE_URL
+  : import.meta.env.BASE_URL + "/";
 ---
 
 <li>
-  <a href={url} title={title} class="group">
-    <article class="flex-1 h-full flex flex-col">
-      <div class="block w-full lg:col-span-2">
-        <img
-          class="aspect-[16/9] object-cover bg-center h-full w-full rounded-lg"
-          src={image}
-          alt={title}
-        />
-      </div>
-      <div
-        class="flex flex-col items-start justify-between h-full flex-1 w-full p-4"
-      >
-        <div>
-          <div class="inline-flex space-x-1 items-center">
-            <div class="flex text-sm text-zinc-400">
-              <time datetime="2020-03-16">{pubDate}</time>
-            </div>
+  <article class="flex-1 h-full flex flex-col">
+    <a href={url} title={title} class="group block w-full lg:col-span-2">
+      <img
+        class="aspect-[16/9] object-cover bg-center h-full w-full rounded-lg"
+        src={image}
+        alt={title}
+      />
+    </a>
+    <div
+      class="flex flex-col items-start justify-between h-full flex-1 w-full p-4"
+    >
+      <div>
+        <div class="inline-flex space-x-1 items-center">
+          <div class="flex text-sm text-zinc-400">
+            <time datetime="2020-03-16">{pubDate}</time>
           </div>
+        </div>
+        <a href={url} title={title} class="block">
           <h4 class="title text-black mt-2 font-display text-xl text-pretty">
             {title}
           </h4>
-        </div>
-        <p class="mt-4 text-sm text-zinc-500 line-clamp-2">{description}</p>
-
-        <div class="mt-4 flex space-x-2 flex-wrap gap-y-2">
-          {
-            tags.map((tag) => (
-              <span class="text-sm bg-white px-3 rounded-full font-medium text-black">{tag}</span>
-            ))
-          }
-        </div>
+        </a>
       </div>
-    </article>
-  </a>
+      <p class="mt-4 text-sm text-zinc-500 line-clamp-2">{description}</p>
+
+      <div class="mt-4 flex space-x-2 flex-wrap gap-y-2">
+        {
+          tags.map((tag) => (
+            <a href={`${base}tags/${tag}`} class="text-sm bg-white px-3 rounded-full font-medium text-black hover:text-blue-500">{tag}</a>
+          ))
+        }
+      </div>
+    </div>
+  </article>
 </li>
