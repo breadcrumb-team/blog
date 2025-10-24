@@ -4,7 +4,7 @@ export function formatDate(date: Date): string {
     month: 'long',
     day: 'numeric'
   };
-  
+
   return date.toLocaleDateString('en-US', options);
 }
 
@@ -14,7 +14,8 @@ export function formatDateShort(date: Date): string {
     month: 'short',
     day: 'numeric'
   };
-  
+
   return date.toLocaleDateString('en-US', options);
 }
+
 

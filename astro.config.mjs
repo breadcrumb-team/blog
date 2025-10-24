@@ -4,6 +4,8 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 
+import react from '@astrojs/react';
+
 // https://astro.build/config
 export default defineConfig({
    vite: {
@@ -22,5 +24,5 @@ export default defineConfig({
   },
   site: 'https://www.breadcrumb.ai',
   base: '/blog',
-  integrations: [sitemap(), mdx()]
+  integrations: [sitemap(), mdx(), react()]
 });
