@@ -4,7 +4,7 @@ author: Victor Tang
 title: Top Fan Engagement Strategies Using AI For Sports Marketing
 description: "How AI helps sports organizations predict behavior, personalize experiences, and drive proactive, real-time fan engagement."
 image:
-  url: "/blog/images/fan-engagement-sports-stadium.jpg"
+  url: "/blog/images/fan-engagement-metric.png"
   alt: "AI-powered fan engagement in a stadium"
 tags: ["Sports", "AI", "Fan Engagement"]
 ---
@@ -31,7 +31,7 @@ Modern fan engagement strategies are about connection and context. They combine 
 
 AI allows organizations to do this at scale. It collects millions of fan interactions—likes, clicks, ticket purchases—and translates them into insights. This turns engagement into a living, breathing system that constantly adapts to fan behavior.
 
-![Fan Engagement Metric](/blog/images/fan-engagement-metric.png)
+![Fan Engagement Metric](/blog/images/fan-engagement-sports-stadium.jpg)
 
 ## What Makes a Great Fan Engagement Strategy
 
