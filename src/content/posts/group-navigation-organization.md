@@ -49,3 +49,15 @@ The insight more menu now includes an option to send an insight to any selected 
 | Group auto pan | Moves the canvas to a chosen group | Faster navigation |
 | Drag to reorder | Lets users arrange groups in their own order | Better organization |
 | Send insight to group | Routes insights into specific groups | Cleaner structure |
+
+
+
+---
+
+## Related product updates
+
+- [AI Tables, KPI Charts, Tag Filters, and Synthetic Data](/blog/ai-tables-breadcrumb-product-update/)
+- [Smarter Customization, More Flexibility, and Faster Insights](/blog/breadcrumb-smarter-customization-flexibility-insights/)
+- [We Rebuilt the Canvas Around How You Work With Data](/blog/new-data-experience-rebuilt-update/)
+- [How Breadcrumb Helps You Scale Collaboration within your Organization](/blog/how-breadcrumb-helps-you-scale-collaboration/)
+- [Smarter Conversations, Instant Insights with our new AI](/blog/smarter-conversational-ai/)
