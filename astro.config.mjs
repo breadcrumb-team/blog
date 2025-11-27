@@ -10,6 +10,12 @@ import react from '@astrojs/react';
 export default defineConfig({
    vite: {
     plugins: [tailwindcss()],
+    resolve: {
+      alias: {
+        'next/link': '/src/components/compat/Link.tsx',
+        'next/image': '/src/components/compat/Image.tsx',
+      }
+    }
   },
   markdown: {
     drafts: true,

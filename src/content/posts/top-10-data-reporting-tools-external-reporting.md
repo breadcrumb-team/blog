@@ -159,7 +159,7 @@ Microsoft [Power BI](https://powerbi.microsoft.com) is another dominant tool in 
 
 ## 10. Breadcrumb.ai
 
-While the above platforms are established names, [Breadcrumb.ai](https://www.breadcrumb.ai) represents a new wave of analytics designed specifically for external-facing reporting. Unlike traditional BI tools that require licenses, heavy setup, or technical skills, Breadcrumb.ai provides a conversational dashboard that allows stakeholders, clients, or sponsors to ask questions directly and get instant answers.
+While the above platforms are established names, [Breadcrumb.ai](https://www.breadcrumb.ai/partner-engagement) represents a new wave of analytics designed specifically for external-facing reporting. Unlike traditional BI tools that require licenses, heavy setup, or technical skills, Breadcrumb.ai provides a conversational dashboard that allows stakeholders, clients, or sponsors to ask questions directly and get instant answers.
 
 **Best for:** Businesses that want to communicate data to clients, sponsors, or external partners without requiring them to learn complex BI tools.
 
@@ -185,6 +185,6 @@ Choosing the right reporting tool depends on your use case, budget, and audience
 
 ## Ready to Transform Your External Reporting?
 
-If you're looking for a modern approach to external reporting that eliminates the learning curve for your stakeholders, [try Breadcrumb.ai](https://www.breadcrumb.ai) today.
+If you're looking for a modern approach to external reporting that eliminates the learning curve for your stakeholders, [try Breadcrumb.ai](https://www.breadcrumb.ai/partner-engagement) today.
 
 No complex setup. No training required. Just connect your data and start sharing insights that your clients and partners can actually use. 

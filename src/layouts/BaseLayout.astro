@@ -1,6 +1,6 @@
 ---
 import BaseHead from "@/components/BaseHead.astro";
-import Header from "@/components/global/Header.astro";
+import HeaderMainLocal from "@/components/HeaderMainLocal.tsx";
 import Footer from "@/components/global/Footer.astro";
 import { EllmoApi } from 'ellmo-ai-react';
 
@@ -47,7 +47,7 @@ const { seo } = Astro.props;
   </head>
   <body class="bg-white flex flex-col min-h-screen">
     <EllmoApi clientId="5b83828f-7b6a-4e65-afe9-4ac010d94f4a" url={Astro.url.pathname} type="semantic" />
-    <Header />
+    <HeaderMainLocal isActive="blog" client:load />
     <main class="flex-grow pt-16"><slot /></main>
     <Footer />
   </body>

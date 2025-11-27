@@ -115,7 +115,7 @@ These metrics tell the full story of how fans feel, act, and evolve. The key is 
 
 
 <div style="border:1px solid #e5e7eb;border-radius:12px;padding:20px;background:#f9fafb;">
-  <a href="https://www.breadcrumb.ai" style="text-decoration:none;color:inherit;display:block;">
+  <a href="https://www.breadcrumb.ai/partner-engagement" style="text-decoration:none;color:inherit;display:block;">
     <img src="/blog/images/breadcrumb-unify-fan-data.png" alt="Breadcrumb — Unify All Fan Data in One View" style="width:100%;border-radius:8px;margin:0px 0 20px;" />
     <h3 style="margin:0 0 8px 0;">Unify All Fan Data in One View</h3>
     <p style="margin:0 0 12px 0;">Combine every data source — ticketing, social, CRM, and sales — into a single dashboard that helps you track fan engagement and answer questions using AI.
