@@ -1,6 +1,4 @@
-import React, { useMemo, useState } from "react";
-import Link from "next/link";
-import Image from "next/image";
+import { useMemo, useState } from "react";
 import cls from "../styles/header-main-local.module.css";
 
 type HeaderMainLocalProps = {
@@ -28,16 +26,15 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
     <header className={rootClass} role="banner">
       <div className={cls.container}>
         <div className={cls.logoWrap}>
-          <Link href="https://breadcrumb.ai/" className={cls.logo} aria-label="Breadcrumb AI - Go to homepage">
-            <Image
-              src="/images/breadcrumb-logo.svg"
+          <a href="https://breadcrumb.ai/" className={cls.logo} aria-label="Breadcrumb AI - Go to homepage">
+            <img
+              src="/blog/images/breadcrumb-logo.svg"
               alt="Breadcrumb AI"
               width={120}
               height={24}
               className={cls.logoImage}
-              priority
             />
-          </Link>
+          </a>
         </div>
 
         <button
@@ -67,7 +64,7 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
                 role="menu"
               >
                 <div className={cls.usecasesGrid}>
-                  <Link href="https://breadcrumb.ai/usecase/marketing" className={cls.usecaseCard} role="menuitem">
+                  <a href="https://breadcrumb.ai/usecase/marketing" className={cls.usecaseCard} role="menuitem">
                     <div className={cls.usecaseIcon} aria-hidden="true">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <path d="M12 2L2 7l10 5 10-5-10-5z"/>
@@ -76,8 +73,8 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
                     </div>
                     <h3 className={cls.usecaseTitle}>Marketing</h3>
                     <p className={cls.usecaseDescription}>Engage stakeholders with interactive dashboards and data visualization</p>
-                  </Link>
-                  <Link href="https://breadcrumb.ai/usecase/sales" className={cls.usecaseCard} role="menuitem">
+                  </a>
+                  <a href="https://breadcrumb.ai/usecase/sales" className={cls.usecaseCard} role="menuitem">
                     <div className={cls.usecaseIcon} aria-hidden="true">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <path d="M12 2v20M2 12h20"/>
@@ -86,8 +83,8 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
                     </div>
                     <h3 className={cls.usecaseTitle}>Sales & Revenue</h3>
                     <p className={cls.usecaseDescription}>Track performance and optimize revenue with real-time insights</p>
-                  </Link>
-                  <Link href="https://breadcrumb.ai/usecase/business-operations" className={cls.usecaseCard} role="menuitem">
+                  </a>
+                  <a href="https://breadcrumb.ai/usecase/business-operations" className={cls.usecaseCard} role="menuitem">
                     <div className={cls.usecaseIcon} aria-hidden="true">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <rect x="3" y="3" width="18" height="18" rx="2"/>
@@ -96,8 +93,8 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
                     </div>
                     <h3 className={cls.usecaseTitle}>Business Operations</h3>
                     <p className={cls.usecaseDescription}>Streamline operations with automated reporting and analytics</p>
-                  </Link>
-                  <Link href="https://breadcrumb.ai/usecase/live-events" className={cls.usecaseCard} role="menuitem">
+                  </a>
+                  <a href="https://breadcrumb.ai/usecase/live-events" className={cls.usecaseCard} role="menuitem">
                     <div className={cls.usecaseIcon} aria-hidden="true">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/>
@@ -105,8 +102,8 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
                     </div>
                     <h3 className={cls.usecaseTitle}>Live Events</h3>
                     <p className={cls.usecaseDescription}>Monitor event performance and engagement in real-time</p>
-                  </Link>
-                  <Link href="https://breadcrumb.ai/usecase/embedded-analytics-reporting" className={cls.usecaseCard} role="menuitem">
+                  </a>
+                  <a href="https://breadcrumb.ai/usecase/embedded-analytics-reporting" className={cls.usecaseCard} role="menuitem">
                     <div className={cls.usecaseIcon} aria-hidden="true">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <path d="M3 3v18h18"/>
@@ -115,8 +112,8 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
                     </div>
                     <h3 className={cls.usecaseTitle}>Embedded Analytics</h3>
                     <p className={cls.usecaseDescription}>Build custom reports from your data and analyze them as you see fit</p>
-                  </Link>
-                  <Link href="https://breadcrumb.ai/partner-engagement" className={cls.usecaseCard} role="menuitem">
+                  </a>
+                  <a href="https://breadcrumb.ai/partner-engagement" className={cls.usecaseCard} role="menuitem">
                     <div className={cls.usecaseIcon} aria-hidden="true">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
@@ -126,17 +123,17 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
                     </div>
                     <h3 className={cls.usecaseTitle}>Partner Engagement</h3>
                     <p className={cls.usecaseDescription}>Transform reports into relationships for every partner and customer</p>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
 
-            <Link href="https://breadcrumb.ai/pricing" className={`${cls.navLink} ${isActive === 'pricing' ? cls.navLinkActive : ''}`}>
+            <a href="https://breadcrumb.ai/pricing" className={`${cls.navLink} ${isActive === 'pricing' ? cls.navLinkActive : ''}`}>
               Pricing
-            </Link>
-            <Link href="https://breadcrumb.ai/blog" className={`${cls.navLink} ${isActive === 'blog' ? cls.navLinkActive : ''}`}>
+            </a>
+            <a href="https://breadcrumb.ai/blog" className={`${cls.navLink} ${isActive === 'blog' ? cls.navLinkActive : ''}`}>
               Blog
-            </Link>
+            </a>
             <a href="https://docs.breadcrumb.ai/" target="_blank" rel="noopener noreferrer" className={cls.navLink}>
               Docs
             </a>
@@ -147,7 +144,7 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
               <a href="https://app.breadcrumb.ai/signin" className={cls.navLink}>Sign In</a>
             )}
             {logoOnly ? (
-              <Link href="https://breadcrumb.ai/request-demo" className={cls.buttonPrimary}>Book a demo</Link>
+              <a href="https://breadcrumb.ai/request-demo" className={cls.buttonPrimary}>Book a demo</a>
             ) : (
               <a href="https://app.breadcrumb.ai/signup" className={cls.buttonPrimary}>Get access</a>
             )}
@@ -158,15 +155,15 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
         {mobileOpen && <div className={cls.mobileBackdrop} onClick={() => setMobileOpen(false)} />}
         <div className={`${cls.mobileMenu} ${mobileOpen ? cls.mobileMenuOpen : ''}`}>
           <div className={cls.mobileMenuHeader}>
-            <Link href="/" className={cls.logo} onClick={closeMobileMenu}>
-              <Image
-                src="/images/breadcrumb-logo.svg"
+            <a href="/blog/" className={cls.logo} onClick={closeMobileMenu}>
+              <img
+                src="/blog/images/breadcrumb-logo.svg"
                 alt="Breadcrumb"
                 width={120}
                 height={24}
                 className={cls.logoImage}
               />
-            </Link>
+            </a>
             <button
               aria-label="Close menu"
               className={cls.mobileMenuClose}
@@ -187,17 +184,17 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
               </button>
               {mobileUsecasesOpen && (
                 <div className={cls.mobileSubMenu}>
-                  <Link href="https://breadcrumb.ai/usecase/marketing" className={cls.mobileSubLink} onClick={closeMobileMenu}>Marketing</Link>
-                  <Link href="https://breadcrumb.ai/usecase/sales" className={cls.mobileSubLink} onClick={closeMobileMenu}>Sales & Revenue</Link>
-                  <Link href="https://breadcrumb.ai/usecase/business-operations" className={cls.mobileSubLink} onClick={closeMobileMenu}>Business Operations</Link>
-                  <Link href="https://breadcrumb.ai/usecase/live-events" className={cls.mobileSubLink} onClick={closeMobileMenu}>Live Events</Link>
-                  <Link href="https://breadcrumb.ai/usecase/embedded-analytics-reporting" className={cls.mobileSubLink} onClick={closeMobileMenu}>Embedded Analytics</Link>
-                  <Link href="https://breadcrumb.ai/partner-engagement" className={cls.mobileSubLink} onClick={closeMobileMenu}>Partner Engagement</Link>
+                  <a href="https://breadcrumb.ai/usecase/marketing" className={cls.mobileSubLink} onClick={closeMobileMenu}>Marketing</a>
+                  <a href="https://breadcrumb.ai/usecase/sales" className={cls.mobileSubLink} onClick={closeMobileMenu}>Sales & Revenue</a>
+                  <a href="https://breadcrumb.ai/usecase/business-operations" className={cls.mobileSubLink} onClick={closeMobileMenu}>Business Operations</a>
+                  <a href="https://breadcrumb.ai/usecase/live-events" className={cls.mobileSubLink} onClick={closeMobileMenu}>Live Events</a>
+                  <a href="https://breadcrumb.ai/usecase/embedded-analytics-reporting" className={cls.mobileSubLink} onClick={closeMobileMenu}>Embedded Analytics</a>
+                  <a href="https://breadcrumb.ai/partner-engagement" className={cls.mobileSubLink} onClick={closeMobileMenu}>Partner Engagement</a>
                 </div>
               )}
             </div>
-            <Link href="https://breadcrumb.ai/pricing" className={cls.mobileNavLink} onClick={closeMobileMenu}>Pricing</Link>
-            <Link href="https://breadcrumb.ai/blog" className={cls.mobileNavLink} onClick={closeMobileMenu}>Blog</Link>
+            <a href="https://breadcrumb.ai/pricing" className={cls.mobileNavLink} onClick={closeMobileMenu}>Pricing</a>
+            <a href="https://breadcrumb.ai/blog" className={cls.mobileNavLink} onClick={closeMobileMenu}>Blog</a>
             <a href="https://docs.breadcrumb.ai/" target="_blank" rel="noopener noreferrer" className={cls.mobileNavLink}>Docs</a>
           </nav>
 
@@ -206,7 +203,7 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
               <a href="https://app.breadcrumb.ai/signin" className={cls.mobileNavLink}>Sign In</a>
             )}
             {logoOnly ? (
-              <Link href="https://breadcrumb.ai/request-demo" className={cls.mobileButtonPrimary} onClick={closeMobileMenu}>Book a demo</Link>
+              <a href="https://breadcrumb.ai/request-demo" className={cls.mobileButtonPrimary} onClick={closeMobileMenu}>Book a demo</a>
             ) : (
               <a href="https://app.breadcrumb.ai/signup" className={cls.mobileButtonPrimary}>Get access</a>
             )}
