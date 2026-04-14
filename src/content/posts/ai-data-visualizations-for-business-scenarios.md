@@ -1,13 +1,14 @@
 ---
-pubDate: 2024-09-11
+
+## pubDate: 2024-09-11
+
 author: Victor Tang
 title: 5 Data Visualizations for Different Business Scenarios using AI Analytics
 description: "Easily turn complex data into actionable insights with Breadcrumb.ai’s AI-powered visualizations. Discover five ways to create powerful dashboards to tackle key business challenges effortlessly."
 image:
-  url: "https://site-assets.plasmic.app/f9ecb0a7c40f997ad5a0171e20261c18.png"
+  url: "[https://site-assets.plasmic.app/f9ecb0a7c40f997ad5a0171e20261c18.png](https://site-assets.plasmic.app/f9ecb0a7c40f997ad5a0171e20261c18.png)"
   alt: "#"
 tags: ["AI & Automation", "Analytics"]
----
 
 In today’s data-driven world, visualizing your data is key to unlocking actionable insights and making smarter business decisions. That's where Breadcrumb.ai comes in—our AI-powered analytic dashboards automatically transform complex data into easy-to-understand visualizations. Here are five powerful data visualizations you can chat and create with Breadcrumb’s AI data agents to tackle different business scenarios.
 
@@ -17,11 +18,9 @@ Understanding how your business has performed in the past is the first step in p
 
 ### Line Chart for Sales Performance Tracking
 
-<iframe src="https://beta.app.breadcrumb.ai/embed/widgets/95b8d598-85e6-46ad-b0b5-c80e53f33ffa" width="600px" height="400px" frameborder="0"></iframe>
-
 When it comes to sales, understanding trends over time is crucial. With Breadcrumb.ai, you can generate a dynamic line chart that highlights all kinds of time range sales growth, like the example here. 
 
-> #### "_Prediction of sales for each category for the next quarter"_
+> #### "*Prediction of sales for each category for the next quarter"*
 
 I simply typed in the prompt and in a few seconds, you can have the graph of year-over-year sales growth across different product categories. This visualization allows you to quickly identify seasonal patterns, top-performing categories, and sales dips that need attention—empowering your team to make data-backed decisions to drive revenue.
 
@@ -29,9 +28,7 @@ Data source: sales data
 
 ### Bar Chart for Customer Segmentation
 
-<iframe src="https://beta.app.breadcrumb.ai/embed/widgets/5df4b4b6-ad11-45f2-b161-908b82dbef8c" width="600px" height="400px" frameborder="0"></iframe>
-
-> #### _"Conversion rate by gender of each category"_
+> #### *"Conversion rate by gender of each category"*
 
 Segmenting customers based on their characteristics and behaviors is key to effective marketing. Breadcrumb.ai makes it easy to visualize this with a bar chart, by asking: Conversion rate by gender of each category, it will break down your customer base by gender and purchasing channels, and more. Use this visualization to tailor your marketing strategies, create personalized offers, and enhance customer loyalty.
 
@@ -43,13 +40,11 @@ To optimize and strengthen the business, understanding the relationships between
 
 ### Scatter Plot for Variables Relationship Analysis
 
-<iframe src="https://beta.app.breadcrumb.ai/embed/widgets/be3f5cb1-bcc2-490a-a8ee-17b2dc75a769" width="600px" height="400px" frameborder="0"></iframe>
-
 Understanding how different factors impact one another is essential for making strategic decisions. With Breadcrumb.ai, you can use scatter plots to visualize correlations between variables, such as the relationship between shipping time and revenue generated for different product types. 
 
-> #### _"What is the relationship between shipping time and revenue generated for different product types?"_
+> #### *"What is the relationship between shipping time and revenue generated for different product types?"*
 
-Here I asked: _What is the relationship between shipping time and revenue generated for different product types?_ This can help determine what you can improve on for each product type, like carriers, lead time, route…etc. Not only it generates the visualization for you, it also shows you the summary of the insights it has discovered
+Here I asked: *What is the relationship between shipping time and revenue generated for different product types?* This can help determine what you can improve on for each product type, like carriers, lead time, route…etc. Not only it generates the visualization for you, it also shows you the summary of the insights it has discovered
 
 Data source:  Operations shipment data
 
@@ -59,9 +54,7 @@ Predicting future trends is crucial for maintaining a competitive edge since it 
 
 ### Prediction for Future Stock Level
 
-<iframe src="https://beta.app.breadcrumb.ai/embed/widgets/1cce8ae5-6c93-477a-8c1d-6bd54ed384e1" width="600px" height="400px" frameborder="0"></iframe>
-
-> #### _"Can you predict the manufacturing lead time for each product type? "_
+> #### *"Can you predict the manufacturing lead time for each product type? "*
 
 Soon enough it generated a line chart that predicts future stock levels, which is a valuable tool for inventory management, helping businesses maintain the perfect balance between supply and demand. By analyzing historical sales data and identifying patterns in purchasing behavior, Breadcrumb.ai's AI-powered dashboard can forecast stock levels over a specific period. This line chart visually represents projected inventory trends, allowing you to anticipate when certain items might run low or when excess inventory could become an issue. With these insights, your team can make proactive decisions, optimize inventory orders, reduce holding costs, and avoid stockouts, ensuring a seamless supply chain and improved customer satisfaction.
 
@@ -69,11 +62,9 @@ Data source: Operations shipment data
 
 ### Prediction for Product Sales Performance
 
-<iframe src="https://beta.app.breadcrumb.ai/embed/widgets/95b8d598-85e6-46ad-b0b5-c80e53f33ffa" width="600px" height="400px" frameborder="0"></iframe>
+After predicting inventory, you can also predict the future sales performance which is helpful for your sales forecast and overall topline. I simply asked: *Prediction of sales for each category for the next quarter.*
 
-After predicting inventory, you can also predict the future sales performance which is helpful for your sales forecast and overall topline. I simply asked: _Prediction of sales for each category for the next quarter._
-
-> #### "_Prediction of sales for each category for the next quarter."_
+> #### "*Prediction of sales for each category for the next quarter."*
 
 By analyzing past performance and factoring in seasonal trends and market dynamics, Breadcrumb.ai's AI-powered dashboard forecasts sales trajectories for each product. This visualization helps businesses identify which products are likely to see increased demand, enabling them to adjust inventory, allocate budgets, and focus resources effectively. 
 
