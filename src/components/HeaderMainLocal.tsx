@@ -1,34 +1,90 @@
-import { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import cls from "../styles/header-main-local.module.css";
+
+const SITE_BASE = "https://breadcrumb.ai";
+const SCHEDULE_DEMO_URL = "https://savvycal.com/breadcrumbai/bc-demo";
+const AT_TOP_PX = 80;
+
+type HeaderScrollMode = "top" | "elevated" | "hidden";
 
 type HeaderMainLocalProps = {
   isActive?: string;
   logoOnly?: boolean;
   className?: string;
+  overDarkHero?: boolean;
 };
 
 export default function HeaderMainLocal(props: HeaderMainLocalProps) {
-  const { isActive, logoOnly, className } = props;
+  const { logoOnly, className, overDarkHero } = props;
   const [mobileOpen, setMobileOpen] = useState(false);
   const [usecasesOpen, setUsecasesOpen] = useState(false);
+  const [learnOpen, setLearnOpen] = useState(false);
+  const [companyOpen, setCompanyOpen] = useState(false);
   const [mobileUsecasesOpen, setMobileUsecasesOpen] = useState(false);
+  const [mobileLearnOpen, setMobileLearnOpen] = useState(false);
+  const [mobileCompanyOpen, setMobileCompanyOpen] = useState(false);
+  const [scrollMode, setScrollMode] = useState<HeaderScrollMode>("top");
+  const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    lastScrollY.current = typeof window !== "undefined" ? window.scrollY : 0;
+    setScrollMode(lastScrollY.current <= AT_TOP_PX ? "top" : "elevated");
+  }, []);
+
+  useEffect(() => {
+    if (mobileOpen) return;
+
+    const onScroll = () => {
+      const y = window.scrollY;
+      const prev = lastScrollY.current;
+      lastScrollY.current = y;
+
+      if (y <= AT_TOP_PX) {
+        setScrollMode("top");
+        return;
+      }
+      if (y > prev) {
+        setScrollMode("hidden");
+        return;
+      }
+      if (y < prev) {
+        setScrollMode("elevated");
+      }
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, [mobileOpen]);
 
   const rootClass = useMemo(() => {
     const extra = [cls.root];
     if (logoOnly) extra.push(cls.logoOnly);
+    if (mobileOpen) {
+      extra.push(cls.rootElevated);
+    } else {
+      if (scrollMode === "hidden") extra.push(cls.rootHidden);
+      if (scrollMode === "elevated") extra.push(cls.rootElevated);
+    }
+    if (overDarkHero && scrollMode === "top" && !mobileOpen) {
+      extra.push(cls.rootOverDarkHero);
+    }
     if (className) extra.push(className);
     return extra.join(" ");
-  }, [className, logoOnly]);
+  }, [className, logoOnly, mobileOpen, overDarkHero, scrollMode]);
 
   const closeMobileMenu = () => setMobileOpen(false);
+
+  const rawBase = (typeof import.meta !== "undefined" && import.meta.env?.BASE_URL) || "/";
+  const base = rawBase.endsWith("/") ? rawBase : `${rawBase}/`;
+  const logoSrc = `${base}images/breadcrumb-logo.svg`;
 
   return (
     <header className={rootClass} role="banner">
       <div className={cls.container}>
         <div className={cls.logoWrap}>
-          <a href="https://breadcrumb.ai/" className={cls.logo} aria-label="Breadcrumb AI - Go to homepage">
+          <a href={SITE_BASE} className={cls.logo} aria-label="Breadcrumb AI - Go to homepage">
             <img
-              src="/blog/images/breadcrumb-logo.svg"
+              src={logoSrc}
               alt="Breadcrumb AI"
               width={120}
               height={24}
@@ -43,110 +99,129 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
           className={cls.menuToggle}
           onClick={() => setMobileOpen((v) => !v)}
         >
-          ☰
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
         </button>
 
         {/* Desktop Menu */}
-        <div className={cls.menu}> 
+        <div className={cls.menu}>
           <nav className={cls.nav} aria-label="Main navigation">
-            <div className={cls.usecases}>
-              <button 
-                className={cls.navLink} 
-                onClick={() => setUsecasesOpen((v) => !v)}
+            <div
+              className={cls.dropdown}
+              onMouseEnter={() => { setUsecasesOpen(true); setLearnOpen(false); setCompanyOpen(false); }}
+              onMouseLeave={() => setUsecasesOpen(false)}
+            >
+              <button
+                className={cls.navLink}
+                onClick={() => { setUsecasesOpen((v) => !v); setLearnOpen(false); setCompanyOpen(false); }}
                 aria-expanded={usecasesOpen}
                 aria-haspopup="true"
               >
-                Solutions ▾
+                Solutions
               </button>
-              <div 
-                className={`${cls.usecasesMenu} ${usecasesOpen ? cls.usecasesMenuOpen : cls.usecasesMenuHidden}`}
-                onMouseLeave={() => setUsecasesOpen(false)}
+              <div
+                className={`${cls.dropdownPanel} ${usecasesOpen ? cls.dropdownPanelOpen : ''}`}
                 role="menu"
               >
                 <div className={cls.usecasesGrid}>
-                  <a href="https://breadcrumb.ai/usecase/marketing" className={cls.usecaseCard} role="menuitem">
-                    <div className={cls.usecaseIcon} aria-hidden="true">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                        <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
-                      </svg>
-                    </div>
-                    <h3 className={cls.usecaseTitle}>Marketing</h3>
-                    <p className={cls.usecaseDescription}>Engage stakeholders with interactive dashboards and data visualization</p>
+                  <a href={`${SITE_BASE}/sports-teams`} className={cls.usecaseCard} role="menuitem">
+                    <h3 className={cls.usecaseTitle}>Sports Teams & Leagues</h3>
+                    <p className={cls.usecaseDescription}>Personalize fan engagement, support better revenue decisions, and increase fan lifetime value.</p>
                   </a>
-                  <a href="https://breadcrumb.ai/usecase/sales" className={cls.usecaseCard} role="menuitem">
-                    <div className={cls.usecaseIcon} aria-hidden="true">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <path d="M12 2v20M2 12h20"/>
-                        <circle cx="12" cy="12" r="3"/>
-                      </svg>
-                    </div>
-                    <h3 className={cls.usecaseTitle}>Sales & Revenue</h3>
-                    <p className={cls.usecaseDescription}>Track performance and optimize revenue with real-time insights</p>
+                  <a href={`${SITE_BASE}/hospitality`} className={cls.usecaseCard} role="menuitem">
+                    <h3 className={cls.usecaseTitle}>Travel & Hospitality</h3>
+                    <p className={cls.usecaseDescription}>Increase bookings, personalize offers, and build lasting customer loyalty.</p>
                   </a>
-                  <a href="https://breadcrumb.ai/usecase/business-operations" className={cls.usecaseCard} role="menuitem">
-                    <div className={cls.usecaseIcon} aria-hidden="true">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <rect x="3" y="3" width="18" height="18" rx="2"/>
-                        <path d="M9 9h6v6H9z"/>
-                      </svg>
-                    </div>
-                    <h3 className={cls.usecaseTitle}>Business Operations</h3>
-                    <p className={cls.usecaseDescription}>Streamline operations with automated reporting and analytics</p>
+                  <a href={`${SITE_BASE}/music`} className={cls.usecaseCard} role="menuitem">
+                    <h3 className={cls.usecaseTitle}>Music Labels</h3>
+                    <p className={cls.usecaseDescription}>Identify high-value audiences, sharpen release and marketing strategy, and grow artist revenue.</p>
                   </a>
-                  <a href="https://breadcrumb.ai/usecase/live-events" className={cls.usecaseCard} role="menuitem">
-                    <div className={cls.usecaseIcon} aria-hidden="true">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/>
-                      </svg>
-                    </div>
-                    <h3 className={cls.usecaseTitle}>Live Events</h3>
-                    <p className={cls.usecaseDescription}>Monitor event performance and engagement in real-time</p>
-                  </a>
-                  <a href="https://breadcrumb.ai/usecase/embedded-analytics-reporting" className={cls.usecaseCard} role="menuitem">
-                    <div className={cls.usecaseIcon} aria-hidden="true">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <path d="M3 3v18h18"/>
-                        <path d="M7 16l4-4 4 4 6-6"/>
-                      </svg>
-                    </div>
-                    <h3 className={cls.usecaseTitle}>Embedded Analytics</h3>
-                    <p className={cls.usecaseDescription}>Build custom reports from your data and analyze them as you see fit</p>
-                  </a>
-                  <a href="https://breadcrumb.ai/partner-engagement" className={cls.usecaseCard} role="menuitem">
-                    <div className={cls.usecaseIcon} aria-hidden="true">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                        <circle cx="9" cy="7" r="4"/>
-                        <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
-                      </svg>
-                    </div>
-                    <h3 className={cls.usecaseTitle}>Partner Engagement</h3>
-                    <p className={cls.usecaseDescription}>Transform reports into relationships for every partner and customer</p>
+                  <a href={`${SITE_BASE}/media`} className={cls.usecaseCard} role="menuitem">
+                    <h3 className={cls.usecaseTitle}>Media Networks</h3>
+                    <p className={cls.usecaseDescription}>Strengthen sponsorship strategy, surface high-value audiences, and grow advertiser revenue.</p>
                   </a>
                 </div>
               </div>
             </div>
 
-            <a href="https://breadcrumb.ai/pricing" className={`${cls.navLink} ${isActive === 'pricing' ? cls.navLinkActive : ''}`}>
-              Pricing
-            </a>
-            <a href="https://breadcrumb.ai/blog" className={`${cls.navLink} ${isActive === 'blog' ? cls.navLinkActive : ''}`}>
-              Blog
-            </a>
-            <a href="https://docs.breadcrumb.ai/" target="_blank" rel="noopener noreferrer" className={cls.navLink}>
-              Docs
-            </a>
+            <div
+              className={cls.dropdown}
+              onMouseEnter={() => { setLearnOpen(true); setUsecasesOpen(false); setCompanyOpen(false); }}
+              onMouseLeave={() => setLearnOpen(false)}
+            >
+              <button
+                className={cls.navLink}
+                onClick={() => { setLearnOpen((v) => !v); setUsecasesOpen(false); setCompanyOpen(false); }}
+                aria-expanded={learnOpen}
+                aria-haspopup="true"
+              >
+                Learn
+              </button>
+              <div
+                className={`${cls.dropdownPanel} ${learnOpen ? cls.dropdownPanelOpen : ''}`}
+                role="menu"
+              >
+                <div className={cls.learnGrid}>
+                  <a href={`${SITE_BASE}/blog`} className={cls.usecaseCard} role="menuitem">
+                    <h3 className={cls.usecaseTitle}>Blog</h3>
+                    <p className={cls.usecaseDescription}>Insights, updates, and stories from the Breadcrumb team.</p>
+                  </a>
+                  <a href="https://docs.breadcrumb.ai/" target="_blank" rel="noopener noreferrer" className={cls.usecaseCard} role="menuitem">
+                    <h3 className={cls.usecaseTitle}>Docs</h3>
+                    <p className={cls.usecaseDescription}>Technical documentation, guides, and API reference.</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className={cls.dropdown}
+              onMouseEnter={() => { setCompanyOpen(true); setUsecasesOpen(false); setLearnOpen(false); }}
+              onMouseLeave={() => setCompanyOpen(false)}
+            >
+              <button
+                className={cls.navLink}
+                onClick={() => { setCompanyOpen((v) => !v); setUsecasesOpen(false); setLearnOpen(false); }}
+                aria-expanded={companyOpen}
+                aria-haspopup="true"
+              >
+                Company
+              </button>
+              <div
+                className={`${cls.dropdownPanel} ${companyOpen ? cls.dropdownPanelOpen : ''}`}
+                role="menu"
+              >
+                <div className={cls.companyGrid}>
+                  <a href={`${SITE_BASE}/about-us`} className={cls.usecaseCard} role="menuitem">
+                    <h3 className={cls.usecaseTitle}>About Us</h3>
+                    <p className={cls.usecaseDescription}>Our mission, story, and the team behind Breadcrumb.</p>
+                  </a>
+                  <a href={`${SITE_BASE}/careers`} className={cls.usecaseCard} role="menuitem">
+                    <h3 className={cls.usecaseTitle}>Careers</h3>
+                    <p className={cls.usecaseDescription}>Join us and help shape the future of data intelligence.</p>
+                  </a>
+                  <a href={`${SITE_BASE}/contact-us`} className={cls.usecaseCard} role="menuitem">
+                    <h3 className={cls.usecaseTitle}>Contact</h3>
+                    <p className={cls.usecaseDescription}>Get in touch with our team for questions or partnerships.</p>
+                  </a>
+                </div>
+              </div>
+            </div>
           </nav>
 
           <div className={cls.right}>
             {!logoOnly && (
-              <a href="https://app.breadcrumb.ai/signin" className={cls.navLink}>Sign In</a>
+              <a href="https://app.breadcrumb.ai/signin" className={cls.navLink}>Sign in</a>
             )}
             {logoOnly ? (
-              <a href="https://breadcrumb.ai/request-demo" className={cls.buttonPrimary}>Book a demo</a>
+              <a href={`${SITE_BASE}/contact-us`} className={cls.buttonPrimary}>Contact us</a>
             ) : (
-              <a href="https://app.breadcrumb.ai/signup" className={cls.buttonPrimary}>Get access</a>
+              <a href={`${SITE_BASE}/contact-us`} className={cls.buttonPrimary}>
+                Learn more
+              </a>
             )}
           </div>
         </div>
@@ -155,9 +230,9 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
         {mobileOpen && <div className={cls.mobileBackdrop} onClick={() => setMobileOpen(false)} />}
         <div className={`${cls.mobileMenu} ${mobileOpen ? cls.mobileMenuOpen : ''}`}>
           <div className={cls.mobileMenuHeader}>
-            <a href="/blog/" className={cls.logo} onClick={closeMobileMenu}>
+            <a href={SITE_BASE} className={cls.logo} onClick={closeMobileMenu}>
               <img
-                src="/blog/images/breadcrumb-logo.svg"
+                src={logoSrc}
                 alt="Breadcrumb"
                 width={120}
                 height={24}
@@ -169,10 +244,13 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
               className={cls.mobileMenuClose}
               onClick={() => setMobileOpen(false)}
             >
-              ✕
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <line x1="18" y1="6" x2="6" y2="18"/>
+                <line x1="6" y1="6" x2="18" y2="18"/>
+              </svg>
             </button>
           </div>
-          
+
           <nav className={cls.mobileNav}>
             <div className={cls.mobileNavSection}>
               <button
@@ -180,32 +258,68 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
                 onClick={() => setMobileUsecasesOpen((v) => !v)}
               >
                 Solutions
-                <span className={cls.mobileNavArrow}>{mobileUsecasesOpen ? '−' : '+'}</span>
+                <svg className={`${cls.mobileNavChevron} ${mobileUsecasesOpen ? cls.mobileNavChevronOpen : ''}`} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
               </button>
-              {mobileUsecasesOpen && (
-                <div className={cls.mobileSubMenu}>
-                  <a href="https://breadcrumb.ai/usecase/marketing" className={cls.mobileSubLink} onClick={closeMobileMenu}>Marketing</a>
-                  <a href="https://breadcrumb.ai/usecase/sales" className={cls.mobileSubLink} onClick={closeMobileMenu}>Sales & Revenue</a>
-                  <a href="https://breadcrumb.ai/usecase/business-operations" className={cls.mobileSubLink} onClick={closeMobileMenu}>Business Operations</a>
-                  <a href="https://breadcrumb.ai/usecase/live-events" className={cls.mobileSubLink} onClick={closeMobileMenu}>Live Events</a>
-                  <a href="https://breadcrumb.ai/usecase/embedded-analytics-reporting" className={cls.mobileSubLink} onClick={closeMobileMenu}>Embedded Analytics</a>
-                  <a href="https://breadcrumb.ai/partner-engagement" className={cls.mobileSubLink} onClick={closeMobileMenu}>Partner Engagement</a>
+              <div className={`${cls.mobileSubMenu} ${mobileUsecasesOpen ? cls.mobileSubMenuOpen : ''}`}>
+                <div>
+                  <a href={`${SITE_BASE}/sports-teams`} className={cls.mobileSubLink} onClick={closeMobileMenu}>Sports Teams</a>
+                  <a href={`${SITE_BASE}/hospitality`} className={cls.mobileSubLink} onClick={closeMobileMenu}>Hospitality</a>
+                  <a href={`${SITE_BASE}/music`} className={cls.mobileSubLink} onClick={closeMobileMenu}>Music</a>
+                  <a href={`${SITE_BASE}/media`} className={cls.mobileSubLink} onClick={closeMobileMenu}>Media</a>
                 </div>
-              )}
+              </div>
             </div>
-            <a href="https://breadcrumb.ai/pricing" className={cls.mobileNavLink} onClick={closeMobileMenu}>Pricing</a>
-            <a href="https://breadcrumb.ai/blog" className={cls.mobileNavLink} onClick={closeMobileMenu}>Blog</a>
-            <a href="https://docs.breadcrumb.ai/" target="_blank" rel="noopener noreferrer" className={cls.mobileNavLink}>Docs</a>
+            <div className={cls.mobileNavSection}>
+              <button
+                className={cls.mobileNavLink}
+                onClick={() => setMobileLearnOpen((v) => !v)}
+              >
+                Learn
+                <svg className={`${cls.mobileNavChevron} ${mobileLearnOpen ? cls.mobileNavChevronOpen : ''}`} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </button>
+              <div className={`${cls.mobileSubMenu} ${mobileLearnOpen ? cls.mobileSubMenuOpen : ''}`}>
+                <div>
+                  <a href={`${SITE_BASE}/blog`} className={cls.mobileSubLink} onClick={closeMobileMenu}>Blog</a>
+                  <a href="https://docs.breadcrumb.ai/" target="_blank" rel="noopener noreferrer" className={cls.mobileSubLink} onClick={closeMobileMenu}>Docs</a>
+                </div>
+              </div>
+            </div>
+            <div className={cls.mobileNavSection}>
+              <button
+                className={cls.mobileNavLink}
+                onClick={() => setMobileCompanyOpen((v) => !v)}
+              >
+                Company
+                <svg className={`${cls.mobileNavChevron} ${mobileCompanyOpen ? cls.mobileNavChevronOpen : ''}`} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </button>
+              <div className={`${cls.mobileSubMenu} ${mobileCompanyOpen ? cls.mobileSubMenuOpen : ''}`}>
+                <div>
+                  <a href={`${SITE_BASE}/about-us`} className={cls.mobileSubLink} onClick={closeMobileMenu}>About Us</a>
+                  <a href={`${SITE_BASE}/careers`} className={cls.mobileSubLink} onClick={closeMobileMenu}>Careers</a>
+                  <a href={`${SITE_BASE}/contact-us`} className={cls.mobileSubLink} onClick={closeMobileMenu}>Contact</a>
+                </div>
+              </div>
+            </div>
           </nav>
 
           <div className={cls.mobileMenuFooter}>
-            {!logoOnly && (
-              <a href="https://app.breadcrumb.ai/signin" className={cls.mobileNavLink}>Sign In</a>
-            )}
             {logoOnly ? (
-              <a href="https://breadcrumb.ai/request-demo" className={cls.mobileButtonPrimary} onClick={closeMobileMenu}>Book a demo</a>
+              <a href={`${SITE_BASE}/request-demo`} className={cls.mobileButtonPrimary} onClick={closeMobileMenu}>Book a demo</a>
             ) : (
-              <a href="https://app.breadcrumb.ai/signup" className={cls.mobileButtonPrimary}>Get access</a>
+              <a
+                href={SCHEDULE_DEMO_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cls.mobileButtonPrimary}
+              >
+                Contact Sales
+              </a>
             )}
           </div>
         </div>
@@ -213,9 +327,3 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
     </header>
   );
 }
-
-
-
-
-
-
