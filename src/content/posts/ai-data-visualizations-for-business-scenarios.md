@@ -1,14 +1,13 @@
 ---
-
-## pubDate: 2024-09-11
-
+pubDate: 2024-09-11
 author: Victor Tang
 title: 5 Data Visualizations for Different Business Scenarios using AI Analytics
 description: "Easily turn complex data into actionable insights with Breadcrumb.ai’s AI-powered visualizations. Discover five ways to create powerful dashboards to tackle key business challenges effortlessly."
 image:
-  url: "[https://site-assets.plasmic.app/f9ecb0a7c40f997ad5a0171e20261c18.png](https://site-assets.plasmic.app/f9ecb0a7c40f997ad5a0171e20261c18.png)"
-  alt: "#"
+  url: "https://site-assets.plasmic.app/f9ecb0a7c40f997ad5a0171e20261c18.png"
+  alt: "Featured image for AI data visualizations post"
 tags: ["AI & Automation", "Analytics"]
+---
 
 In today’s data-driven world, visualizing your data is key to unlocking actionable insights and making smarter business decisions. That's where Breadcrumb.ai comes in—our AI-powered analytic dashboards automatically transform complex data into easy-to-understand visualizations. Here are five powerful data visualizations you can chat and create with Breadcrumb’s AI data agents to tackle different business scenarios.
 

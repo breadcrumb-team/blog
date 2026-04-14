@@ -1,7 +1,5 @@
 ---
-
-## pubDate: 2025-11-06
-
+pubDate: 2025-11-06
 author: Victor Tang
 title: Top Fan Engagement Strategies Using AI For Sports Marketing
 description: "How AI helps sports organizations predict behavior, personalize experiences, and drive proactive, real-time fan engagement."
@@ -9,6 +7,7 @@ image:
   url: "/blog/images/fan-engagement-metric.png"
   alt: "AI-powered fan engagement in a stadium"
 tags: ["Sports", "AI", "Fan Engagement"]
+---
 
 When I think about fan engagement strategies in sports, I imagine a stadium alive with energy. The crowd is roaring, lights are flashing, and behind the scenes, artificial intelligence is quietly working to make every fan feel seen, heard, and valued. AI has become the secret weapon that transforms sports fandom from a one-way broadcast into a two-way relationship.
 
