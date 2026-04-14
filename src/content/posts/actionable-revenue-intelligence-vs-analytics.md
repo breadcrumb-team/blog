@@ -9,6 +9,7 @@ image:
   url: "/blog/images/reporting-vs-intelligence.png"
   alt: "Visual comparison between reporting and actionable intelligence"
 tags: ["Revenue Intelligence", "Business Intelligence", "Sports Technology"]
+---
 
 Everyone says their platform delivers insights. Almost none of them do.
 
