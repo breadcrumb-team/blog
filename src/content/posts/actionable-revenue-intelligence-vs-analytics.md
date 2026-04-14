@@ -1,6 +1,7 @@
 ---
 
 ## pubDate: 2026-04-14
+
 author: Victor Tang
 title: What Is Actionable Revenue Intelligence — And Why It's Not Analytics
 description: "Revenue intelligence isn't analytics. It's the difference between knowing what happened and knowing exactly what to do next. Here's why that matters for sports revenue teams."
