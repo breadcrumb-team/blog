@@ -1,5 +1,6 @@
 ---
-pubDate: 2025-07-30
+
+## pubDate: 2025-07-30
 author: Victor Tang
 title: How Breadcrumb Helps You Scale Collaboration within your Organization
 description: "Breadcrumb now supports multiple organizations, shared workspaces, team permissions, and centralized data sources—making it easier than ever to collaborate on data and reports across teams and clients."
@@ -7,10 +8,10 @@ image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Conversational AI Enhancement"
 tags: ["Product Update"]
----
+
 We’ve just launched one of our most requested features—support for multiple organizations in Breadcrumb. Now, teams can collaborate more effectively, stay organized across departments or clients, and manage data with precision.
 
-![Teamwork](/blog/images/teamwork.jpg)
+Teamwork
 
 ### Why We Built This
 
@@ -49,8 +50,6 @@ If you’ve ever said “Wait, who has access to this?”—this one’s for you
 
 Log in to [Breadcrumb](https://app.breadcrumb.ai) and head to your **Settings**, create a new organization, and start inviting your team. If you're already using Breadcrumb, your existing setup has been migrated into your first org—we've made the transition seamless.
 
-
 #### Want to see if this works for your organization?
 
-<a href="https://savvycal.com/breadcrumbai/bc-demo" target="_blank">**Schedule a call**</a>
-
+[**Schedule a call](https://savvycal.com/breadcrumbai/bc-demo)**

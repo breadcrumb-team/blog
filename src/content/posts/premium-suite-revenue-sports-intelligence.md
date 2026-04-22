@@ -8,7 +8,6 @@ image:
   alt: "Premium sports suite revenue intelligence dashboard"
 tags: ["Revenue Intelligence", "Premium Sales", "Sports Hospitality"]
 ---
-
 Premium suite sales are having a moment. Revenue is up. Waitlists are back. Some franchises are reporting record premium inventory growth.
 
 And yet, ask any Director of Premium Sales what keeps them awake at night, and the answer is the same: the renewals feel harder to protect than they used to be.

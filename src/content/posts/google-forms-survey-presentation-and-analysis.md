@@ -1,13 +1,13 @@
 ---
-pubDate: 2024-03-26
+
+## pubDate: 2024-03-26
 author: Victor Tang
 title: How to Get Better Analytics from Google Forms
 description: "Learn how to overcome Google Forms' limited analytics capabilities and transform your form data into powerful interactive dashboards using AI-powered tools like Breadcrumb."
 image:
-  url: "https://site-assets.plasmic.app/8b337f9b26b583a4eb4e26e3a9f426ea.png"
+  url: "[https://site-assets.plasmic.app/8b337f9b26b583a4eb4e26e3a9f426ea.png](https://site-assets.plasmic.app/8b337f9b26b583a4eb4e26e3a9f426ea.png)"
   alt: "Data visualization showing colorful charts and graphs"
 tags: ["How-To Guides"]
----
 
 **Google Forms is super handy.** People pick it for lots of reasons.
 
@@ -19,7 +19,7 @@ Google Forms gives you some basic charts, but they're not enough to tell the who
 
 ### Google Forms analytics kind of sucks
 
-![](https://img.plasmic.app/img-optimizer/v1/img?src=61feb4de0d58833e48b6d0c4a518fcd4.png&f=webp&q=75)
+
 
 Google Forms is easy to use when you need to ask questions or get opinions. But when it's time to ask the right questions around your collected answers, it's not that great. The charts are simple, and you can't really dig deep into the answers. Plus, if you want to use the info somewhere else, it’s hard for you to get it out the way you need it.
 
@@ -33,9 +33,9 @@ You could also export your data into a CSV. But then you have to spend time manu
 
 ### Getting more from your Google Forms analysis
 
-Imagine turning the data you collected for your cancellation feedback survey into awesome dashboards _incredibly_ fast. [Breadcrumb.ai](http://breadcrumb.ai/) is that super tool for your Google Forms. It uses artificial intelligence (AI) to make sense of numbers and facts. Think of it like a wizard that turns boring spreadsheets into cool pictures that show you what’s going on. It turns all your form data into cool charts that tell a story.  It's super easy to use and no need to be a computer wizard.
+Imagine turning the data you collected for your cancellation feedback survey into awesome dashboards *incredibly* fast. [Breadcrumb.ai](http://breadcrumb.ai/) is that super tool for your Google Forms. It uses artificial intelligence (AI) to make sense of numbers and facts. Think of it like a wizard that turns boring spreadsheets into cool pictures that show you what’s going on. It turns all your form data into cool charts that tell a story.  It's super easy to use and no need to be a computer wizard.
 
-![](https://img.plasmic.app/img-optimizer/v1/img?src=63556f4d327f69fc520bddff730bc754.png&f=webp&q=75)
+
 
 One of the coolest things it does is mix different kinds of data together. It's like making a giant data salad where everything matches up perfectly. You won't have to scratch your head trying to figure out how things connect. Breadcrumb does it for you.
 
@@ -47,7 +47,7 @@ One of the coolest things it does is mix different kinds of data together. It's 
 - Show yourself hidden patterns you didn't see before.
 - Customize your data viz just by telling it what you want
 
-![](https://img.plasmic.app/img-optimizer/v1/img?src=53fa960965e5fa684dd5650504368ddc.png&f=webp&q=75)
+
 
 Breadcrumb helps you make smart choices without taking forever. No one wants to spend days on this anymore. You can ask questions about your data and get answers fast without needing to be a data whiz.
 
@@ -62,13 +62,9 @@ With Breadcrumb, can click around, explore, and really get what the data is say
 **Here's why interactive dashboards and reports are a big deal:**
 
 - They tell a story with your data, so it's not just a bunch of numbers.
-
 - You don't need to be a data whiz to understand what you're seeing.
-
 - They help you spot cool trends and patterns that you might miss otherwise.
-
     ![](https://img.plasmic.app/img-optimizer/v1/img?src=c0cb2cd463b7a704c3a871f465de7267.png&f=webp&q=75)
-
 
 Plus, when you have to do a big presentation, like a Monthly Business Review, you'll have all the facts to back you up. And if you're tracking a bunch of different things, like how your ads are doing across different places, Breadcrumb makes it a breeze to see it all at once.
 
@@ -80,23 +76,23 @@ Integrating [Breadcrumb.ai](http://breadcrumb.ai/) with Google Forms is a breeze
 
 1. First, grab your Google Forms data by hitting the export button to download it as a CSV file.
 
-![](https://img.plasmic.app/img-optimizer/v1/img?src=4296deab213ac7c2f52f9a30cf7be625.png&f=webp&q=75)
 
-2. Next, hop onto [Breadcrumb.ai](https://app.breadcrumb.ai/signup) and sign in with your credentials.
 
-![](https://img.plasmic.app/img-optimizer/v1/img?src=013cffe2f3aed844a2d4d7ad92cf4e19.png&f=webp&q=75)
+1. Next, hop onto [Breadcrumb.ai](https://app.breadcrumb.ai/signup) and sign in with your credentials.
 
-3. Time to create a new space! Click on add sources to open up the modal and upload the sources you want to use.
 
-![](https://img.plasmic.app/img-optimizer/v1/img?src=87a6d21afa1b529eee47d10b6386d372.png&f=webp&q=75)
 
-4. Use the nifty auto-generate feature. Just type in the kind of dashboard you're dreaming of (e.g. dashboard to understand the cancellation feedback from my survey) and click 'create'.
+1. Time to create a new space! Click on add sources to open up the modal and upload the sources you want to use.
 
-![](https://img.plasmic.app/img-optimizer/v1/img?src=aabaf8303f082cc9dc80bf4a1fffe4f4.png&f=webp&q=75)
 
-5. Voila! You'll now see a cool set of insights and data visualizations crafted for you.
 
-![](https://img.plasmic.app/img-optimizer/v1/img?src=65cd709e2713cbcb31d150ca9f6f6c22.png&f=webp&q=75)
+1. Use the nifty auto-generate feature. Just type in the kind of dashboard you're dreaming of (e.g. dashboard to understand the cancellation feedback from my survey) and click 'create'.
+
+
+
+1. Voila! You'll now see a cool set of insights and data visualizations crafted for you.
+
+
 
 Remember, you're not just stuck with what you first see, Ask questions and add new charts as you like. Tweak and play with your visualizations until they tell the story you want. And if you're working with a team, share your findings by clicking the share button to generate a dynamic report with built in AI summaries.
 
@@ -116,15 +112,15 @@ Now that you have powerful insights from your Google Forms data, the next step i
 
 1. **Set permissions:** Control who can view and interact with your published analytics
 
-![](/blog/images/breadcrumb-publish-analytics-1.png)
 
-2. **Share with one click:** Generate shareable links clicking the "Present" button.
 
-![](/blog/images/breadcrumb-publish-analytics-2.png)
+1. **Share with one click:** Generate shareable links clicking the "Present" button.
 
-3. **Embed in other tools:** Generate an embed code to embed in other tools like Notion, Slack, or your website.
 
-![](/blog/images/breadcrumb-publish-analytics-3.png)
+
+1. **Embed in other tools:** Generate an embed code to embed in other tools like Notion, Slack, or your website.
+
+
 
 The beauty of publishing analytics from Google Forms through Breadcrumb is that it transforms static form responses into living, breathing insights that drive decisions. Instead of sending around PDF exports that become outdated, you're sharing dynamic dashboards that tell the real story behind your data.
 
