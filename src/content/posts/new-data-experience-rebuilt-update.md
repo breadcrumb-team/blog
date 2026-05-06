@@ -1,6 +1,5 @@
 ---
-
-## pubDate: 2025-08-14
+pubDate: 2025-08-14
 author: Victor Tang
 title: "We Rebuilt the Canvas Around How You Work With Data"
 description: "Breadcrumb's redesigned dashboard brings chart controls, space management, restore checkpoints, and enhanced AI transparency—all designed to help you get insights faster with better visibility into your data analysis."
@@ -8,6 +7,7 @@ image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Conversational AI Enhancement"
 tags: ["Product Update"]
+---
 
 At Breadcrumb, we’ve always believed that analytics should feel dynamic, intuitive, and fun to use. That’s why we’re excited to introduce a full **dashboard redesign** based on how real teams like yours use the product every day.
 
