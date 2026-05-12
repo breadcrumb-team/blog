@@ -1,20 +1,21 @@
 ---
-pubDate: 2024-02-26
+
+## pubDate: 2024-02-26
 author: Victor Tang
 title: Use AI to turn ANY spreadsheet into an interactive dashboard in 3 minutes
 description: "A year ago it took hours to turn Excel and Google spreadsheets into interactive, shareable dashboards..."
 image:
-  url: "https://site-assets.plasmic.app/2aa9eb3c271d93577ccae642b0f7b014.png"
+  url: "[https://site-assets.plasmic.app/2aa9eb3c271d93577ccae642b0f7b014.png](https://site-assets.plasmic.app/2aa9eb3c271d93577ccae642b0f7b014.png)"
   alt: "#"
 tags: ["How-To Guides"]
----
+
 ### The old way of building dashboards
 
 A year ago it took hours to turn Excel and Google spreadsheets into interactive, shareable dashboards. And even then, the technology didn’t exist to interact with your data.
 
 The old workflow required planning a dashboard structure, analyzing data using pivot tables, thinking through how you’re going to visualize data, and hacking in dynamic visualizes using pseudo-code.
 
-![Traditional Data Analysis Process](https://img.plasmic.app/img-optimizer/v1/img/d8b9ff32b374f9477374a6080c56c1f1.png?f=webp&q=75)
+Traditional Data Analysis Process
 
 **Traditional steps in getting insights from data**
 
@@ -35,7 +36,7 @@ But now, using Breadcrumb, you can use AI to perform the entire data workflow fo
 
 No more dealing with complex excel formulas, spending hours messing with pivot tables, making sure you’re filtering the right data to get to the result you need.
 
-![Breadcrumb Analysis Process](https://img.plasmic.app/img-optimizer/v1/img/8c7f9e556c06be733797b11b04ecb946.png?f=webp&q=75)
+Breadcrumb Analysis Process
 
 Breadcrumb completely changes your experience. Do zero planning upfront. Just drop in your data and start exploring the visuals the AI creates for you.
 
