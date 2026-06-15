@@ -213,16 +213,9 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
           </nav>
 
           <div className={cls.right}>
-            {!logoOnly && (
-              <a href="https://app.breadcrumb.ai/signin" className={cls.navLink}>Sign in</a>
-            )}
-            {logoOnly ? (
-              <a href={`${SITE_BASE}/contact-us`} className={cls.buttonPrimary}>Contact us</a>
-            ) : (
-              <a href={`${SITE_BASE}/contact-us`} className={cls.buttonPrimary}>
-                Learn more
-              </a>
-            )}
+            <a href={`${SITE_BASE}/contact-us`} className={cls.buttonPrimary}>
+              Learn more
+            </a>
           </div>
         </div>
 

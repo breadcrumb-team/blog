@@ -1,5 +1,5 @@
 ---
-pubDate: 2026-05-19
+pubDate: 2026-05-27
 author: Victor Tang
 title: Why Most Sports Sponsorship Renewals Are Built on Guesswork
 description: "Sports teams struggle to prove sponsorship ROI because their data lives in silos. Here's what the smartest partnership teams do differently."

@@ -167,6 +167,11 @@
   cursor: pointer;
 }
 
+.buttonPrimary:hover {
+  color: #fff;
+  background: #3a3a3f;
+}
+
 .dropdown {
   position: relative;
 }

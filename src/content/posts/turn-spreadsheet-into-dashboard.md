@@ -1,13 +1,13 @@
 ---
-
-## pubDate: 2024-02-26
+pubDate: 2024-02-26
 author: Victor Tang
 title: Use AI to turn ANY spreadsheet into an interactive dashboard in 3 minutes
 description: "A year ago it took hours to turn Excel and Google spreadsheets into interactive, shareable dashboards..."
 image:
-  url: "[https://site-assets.plasmic.app/2aa9eb3c271d93577ccae642b0f7b014.png](https://site-assets.plasmic.app/2aa9eb3c271d93577ccae642b0f7b014.png)"
-  alt: "#"
+  url: "https://site-assets.plasmic.app/2aa9eb3c271d93577ccae642b0f7b014.png"
+  alt: "Turn spreadsheet into dashboard with AI"
 tags: ["How-To Guides"]
+---
 
 ### The old way of building dashboards
 

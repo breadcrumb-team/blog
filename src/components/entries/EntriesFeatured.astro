@@ -1,0 +1,39 @@
+---
+const { title, url, description, pubDate, author, image, tags } = Astro.props;
+const base = import.meta.env.BASE_URL.endsWith("/")
+  ? import.meta.env.BASE_URL
+  : import.meta.env.BASE_URL + "/";
+---
+
+<li>
+  <article class="flex flex-col sm:flex-row gap-6 group">
+    <a href={url} title={title} class="block sm:w-2/5 flex-shrink-0">
+      <img
+        class="aspect-[16/9] object-cover w-full rounded-xl"
+        src={image}
+        alt={title}
+      />
+    </a>
+    <div class="flex flex-col justify-center gap-3 sm:w-3/5">
+      <div class="flex items-center gap-2">
+        <span class="text-xs font-semibold uppercase tracking-wider text-zinc-400">{pubDate}</span>
+      </div>
+      <a href={url} title={title} class="block">
+        <h3 class="text-xl font-semibold text-black leading-snug group-hover:text-zinc-600 transition-colors text-pretty">
+          {title}
+        </h3>
+      </a>
+      <p class="text-sm text-zinc-500 line-clamp-3">{description}</p>
+      <div class="flex flex-wrap gap-2 mt-1">
+        {tags.map((tag) => (
+          <a
+            href={`${base}tags/${tag}`}
+            class="text-xs font-medium px-3 py-1 rounded-full border border-zinc-200 text-zinc-600 hover:border-black hover:text-black transition-colors"
+          >
+            {tag}
+          </a>
+        ))}
+      </div>
+    </div>
+  </article>
+</li>
