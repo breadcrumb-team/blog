@@ -6,7 +6,7 @@ description: "Power BI dashboards often lead to slow updates and limited flexibi
 image:
   url: "https://site-assets.plasmic.app/af33686d7919224114d5756294365e45.png"
   alt: "#"
-tags: ["Analytics", "Embedding"]
+tags: ["Analytics", "Product"]
 ---
 
 For businesses that rely on customer data — whether in **sales, customer success, or product teams** — generating accurate and timely customer reports is critical. Reports help track customer health, measure performance, and identify opportunities for growth. But as one company recently shared, the process of creating and managing customer reports is often more frustrating than insightful.

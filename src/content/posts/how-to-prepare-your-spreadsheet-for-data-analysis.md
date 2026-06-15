@@ -6,7 +6,7 @@ description: "Learn what raw data table format means, why it's crucial for sprea
 image:
   url: "/blog/images/Spreadsheet-preparation-thumbnail.png"
   alt: "Raw data table format illustration"
-tags: ["Guide", "Spreadsheets","Data Preparation"]
+tags: ["How-To Guides", "Analytics"]
 ---
 
 Spreadsheets are one of the most common tools used in business today. Whether you are managing event registrations, tracking sales, or keeping records of customer feedback, chances are much of your data starts in Excel or Google Sheets. However, not every spreadsheet is created equal. Some are designed for presentation, some for quick calculations, and others are simply copied together from multiple sources.

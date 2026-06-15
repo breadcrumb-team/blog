@@ -6,7 +6,7 @@ description: "Learn how agentic reporting uses AI-powered agents to automate and
 image:
   url: "/blog/images/agentic-reporting-future-communication.png"
   alt: "Frustrated marketing team looking at dashboards"
-tags: ["AI Analytics", "Live Events", "Automation"]
+tags: ["AI", "Live Events"]
 ---
 
 ## Introduction

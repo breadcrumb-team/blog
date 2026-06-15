@@ -6,7 +6,7 @@ description: "Watch our complete feature walkthrough showing how Breadcrumb tran
 image:
   url: "/blog/images/breadcrumb-video-feature-walktrhough-thumb.png"
   alt: "Breadcrumb Demo Full Feature Walkthrough"
-tags: ["Guide","Video","Use Cases"]
+tags: ["How-To Guides"]
 ---
 
 Static reports and disconnected dashboards slow down decision-making. That's why we built [Breadcrumb](https://www.breadcrumb.ai)—an AI-native analytics platform designed for business users to get from question → insight → action in minutes, without relying on data teams.

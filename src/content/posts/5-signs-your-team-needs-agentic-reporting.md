@@ -6,7 +6,7 @@ description: "Is your team drowning in data requests while critical insights sit
 image:
   url: "/blog/images/5-signs-agentic-reporting.png"
   alt: "Team struggling with traditional reporting workflows"
-tags: ["AI Analytics", "Agentic Reporting", "Business Intelligence"]
+tags: ["AI", "Analytics"]
 ---
 
 If you've read our [introduction to agentic reporting](./what-is-agentic-reporting), you understand how it's changing how organizations handle data insights. But how do you know if your team actually needs this transformation?

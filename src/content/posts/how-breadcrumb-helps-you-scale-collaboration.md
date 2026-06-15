@@ -6,7 +6,7 @@ description: "Breadcrumb now supports multiple organizations, shared workspaces,
 image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Conversational AI Enhancement"
-tags: ["Product Update"]
+tags: ["Product"]
 ---
 
 We’ve just launched one of our most requested features—support for multiple organizations in Breadcrumb. Now, teams can collaborate more effectively, stay organized across departments or clients, and manage data with precision.

@@ -6,7 +6,7 @@ description: "The 5 CRO revenue diagnostic questions every Chief Revenue Officer
 image:
   url: "/blog/images/cro-five-questions-30-seconds.png"
   alt: "Five revenue diagnostic questions for a CRO"
-tags: ["Operator Playbook", "Revenue Intelligence", "Executive Leadership"]
+tags: ["Analytics"]
 ---
 
 If your Chief Revenue Officer can't answer five basic questions about the state of the revenue function in 30 seconds, you don't have a leadership problem. You have a data problem — and probably a reporting problem on top of it.

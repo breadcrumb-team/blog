@@ -6,7 +6,7 @@ description: "Discover the latest Breadcrumb features including custom instructi
 image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Breadcrumb Product Update - Smarter Customization and Flexibility"
-tags: ["Product Update"]
+tags: ["Product"]
 ---
 
 This latest update introduces several highly requested features, along with some key improvements to usability. From smarter customization options to more flexibility in how you arrange your dashboards, these changes are designed to help you move faster and focus on what matters most.

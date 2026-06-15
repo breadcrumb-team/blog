@@ -6,7 +6,7 @@ description: "Transform your Airtable data into actionable insights with Breadcr
 image:
   url: "https://site-assets.plasmic.app/c5d9b6519eb53570638cb3a43f61b670.png"
   alt: "Data visualization dashboard showing colorful charts and graphs"
-tags: ["How-To Guides", "Use Cases"]
+tags: ["How-To Guides"]
 ---
 ### What happens when you combine two of the most flexible tools available? 
 

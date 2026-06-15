@@ -6,7 +6,7 @@ description: "Discover how modern AI reporting tools eliminate the need for codi
 image:
   url: "/blog/images/vasilis-caravitis-WGOpvIKwq3Y-unsplash.jpg"
   alt: "Conversational AI Enhancement"
-tags: ["AI Tools", "Agentic Reporting"]
+tags: ["AI", "Analytics"]
 ---
 The ability to transform data into clear, actionable reports is no longer limited to seasoned analysts or coding experts. With modern AI-driven reporting tools, anyone in your organization can explore metrics, uncover trends, and present findings — all without touching a single line of code.
 

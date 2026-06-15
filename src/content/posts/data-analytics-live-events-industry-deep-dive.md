@@ -6,7 +6,7 @@ description: "Explore the evolving landscape of data analytics in live events, f
 image:
   url: "/blog/images/events/live-event-analytics-tools.png"
   alt: "Live event analytics dashboard showing real-time metrics and insights"
-tags: ["Data Analytics", "Live Events", "AI Analytics", "Event Technology", "Industry Analysis"]
+tags: ["Analytics", "Live Events", "AI"]
 ---
 ## Introduction: The Data Revolution in Live Events
 

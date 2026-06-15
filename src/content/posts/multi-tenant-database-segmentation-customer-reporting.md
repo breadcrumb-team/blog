@@ -6,7 +6,7 @@ description: "Learn how to design secure and scalable multi-tenant databases for
 image:
   url: "/blog/images/multi-tenant-segmentation.png"
   alt: "Multi-tenant database architecture with customer segmentation"
-tags: ["Multi-Tenant Databases", "Customer Reporting", "Row-Level Security"]
+tags: ["Analytics", "Product"]
 ---
 
 **When building a SaaS platform, data architecture choices can make or break your analytics and reporting strategy, especially when AI is involved.**

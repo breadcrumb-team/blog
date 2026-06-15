@@ -6,7 +6,7 @@ description: "Master data preparation for AI agents and agentic reporting. Learn
 image:
   url: "/blog/images/agentic-reporting-data-prep.png"
   alt: "Data preparation and standardization for AI agents in agentic reporting"
-tags: ["Agentic Reporting", "AI Agents", "Data Preparation", "Data Quality"]
+tags: ["AI", "Analytics"]
 ---
 
 Agentic reporting uses AI-powered reporting agents to watch your most important metrics, unify data from multiple sources, and deliver narrative insights your stakeholders can explore without waiting on an analyst or wrestling with a BI tool.

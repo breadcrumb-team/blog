@@ -6,7 +6,7 @@ description: "Revenue intelligence isn't analytics. It's the difference between 
 image:
   url: "/blog/images/reporting-vs-intelligence.png"
   alt: "Visual comparison between reporting and actionable intelligence"
-tags: ["Revenue Intelligence", "Business Intelligence", "Sports Technology"]
+tags: ["Sports", "Analytics"]
 ---
 
 Everyone says their platform delivers insights. Almost none of them do.

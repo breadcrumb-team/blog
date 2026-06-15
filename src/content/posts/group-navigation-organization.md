@@ -6,7 +6,7 @@ description: "New group improvements help users see the current group, jump with
 image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Breadcrumb Product Update - Group navigation and reordering"
-tags: ["Product Update"]
+tags: ["Product"]
 ---
 This update introduces improvements to group features that make workflows faster and clearer. Users can see exactly where they are, move around spaces with ease, organize groups to match their mental model, and place insights where they belong without extra effort.
 

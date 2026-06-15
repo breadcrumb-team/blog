@@ -6,7 +6,7 @@ description: "For the last decade data tools have been built for data people - m
 image:
   url: "https://site-assets.plasmic.app/4e8658aaef813bb41331b45acb46a9c1.png"
   alt: "#"
-tags: ["Product Update"]
+tags: ["Product"]
 ---
 ### _You don’t need to be a winemaker to appreciate wine._
 

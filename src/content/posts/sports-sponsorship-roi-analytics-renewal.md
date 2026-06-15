@@ -6,7 +6,7 @@ description: "Sports teams struggle to prove sponsorship ROI because their data 
 image:
   url: "/blog/images/drafts/sports-sponsorship-roi-analytics.png"
   alt: "Sports sponsorship ROI analytics dashboard showing partnership revenue data"
-tags: ["Revenue Intelligence", "Sports Partnerships", "Sponsorship Analytics"]
+tags: ["Sports", "Sponsorship"]
 ---
 
 ## Why Most Sports Sponsorship Renewals Are Built on Guesswork

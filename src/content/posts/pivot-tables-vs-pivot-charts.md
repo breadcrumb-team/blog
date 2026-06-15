@@ -7,7 +7,7 @@ description: "How I use pivot tables for exploration and pivot charts for commun
 image:
   url: "/blog/images/pivot-table-vs-pivot-chart-preview.png"
   alt: "Pivot tables vs pivot charts"
-tags: ["Analytics", "Data Visualization", "Reporting"]
+tags: ["Analytics", "How-To Guides"]
 ---
 I have lost count of how many times I have built a pivot chart only to realize it is essentially the same as my pivot table, just visualized in a cleaner and more expressive way. Earlier in my career, I used to think of pivot tables and pivot charts as separate tools, one meant for analysis and the other meant for presentation. 
 

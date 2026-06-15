@@ -6,7 +6,7 @@ description: "Discover how AI-powered analytics can help you unlock hidden patte
 image:
   url: "/blog/images/breadcrumb-ga-cover.png"
   alt: "Breadcrumb.ai analyzing Google Analytics data with natural language interface"
-tags: ["Google Analytics", "Web Traffic Analytics"]
+tags: ["Analytics", "How-To Guides"]
 ---
 
 # The Hidden Cost of Untapped Google Analytics Data

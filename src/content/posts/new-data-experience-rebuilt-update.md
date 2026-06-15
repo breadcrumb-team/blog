@@ -6,7 +6,7 @@ description: "Breadcrumb's redesigned dashboard brings chart controls, space man
 image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Conversational AI Enhancement"
-tags: ["Product Update"]
+tags: ["Product"]
 ---
 
 At Breadcrumb, we’ve always believed that analytics should feel dynamic, intuitive, and fun to use. That’s why we’re excited to introduce a full **dashboard redesign** based on how real teams like yours use the product every day.

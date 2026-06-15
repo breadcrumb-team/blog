@@ -6,7 +6,7 @@ description: "Meet our enhanced AI agent that helps you create smarter reports t
 image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Conversational AI Enhancement"
-tags: ["Product Update"]
+tags: ["Product"]
 ---
 
 ## Say hello to a more conversational AI that helps you create smarter reports.

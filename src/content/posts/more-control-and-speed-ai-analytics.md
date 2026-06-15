@@ -6,7 +6,7 @@ description: "Discover new features that give you more control over your analyti
 image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Conversational AI Enhancement"
-tags: ["Product Update"]
+tags: ["Product"]
 ---
 
 ![Dashboard Reports Reskin](/blog/images/breadcrumb-dashboard-reports-reskin.png)

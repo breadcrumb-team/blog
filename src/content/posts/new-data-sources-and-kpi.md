@@ -6,7 +6,7 @@ description: "Connect directly to more data sources and create better reports wi
 image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Breadcrumb product update"
-tags: ["Product Update"]
+tags: ["Product"]
 ---
 ![New data source connectors available in Breadcrumb](/blog/images/breadcrumb-new-data-connectors.png)
 

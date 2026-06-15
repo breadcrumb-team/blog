@@ -6,7 +6,7 @@ description: "Only 7% of posts drove 30% of Nissan's campaign impressions. Here'
 image:
   url: "/blog/images/carjitsu/sponsor-wrapped-cover.png"
   alt: "CarJitsu x Nissan Magnite Showdown — Sponsor Wrapped by Breadcrumb"
-tags: ["Case Study", "Sports", "Sponsorship Analytics"]
+tags: ["Case Study", "Sports", "Sponsorship", "Customers"]
 ---
 
 ### Overview

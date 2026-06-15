@@ -6,7 +6,7 @@ description: "Unlock deeper insights from your events by connecting Eventbrite o
 image:
   url: "/blog/images/eventbrite-ticket-tailor-breadcrumb-data.png"
   alt: "#"
-tags: ["Live Events", "Data Connectors", "Guides"]
+tags: ["Live Events", "How-To Guides"]
 ---
 
 

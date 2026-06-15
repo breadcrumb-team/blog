@@ -6,7 +6,7 @@ description: "Manage data sources in a cleaner modal, expand tables to full scre
 image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Product update - source management and table view improvements"
-tags: ["Product Update"]
+tags: ["Product"]
 ---
 
 We made it easier to manage data sources and understand what they mean, without leaving your space. This update focuses on the parts of your workflow that slow teams down most: switching sources, validating raw data, and aligning on definitions before insights are generated.

@@ -6,7 +6,7 @@ description: "I share how I use KPI reporting to guide decisions, with uses, pro
 image:
   url: "/blog/images/kpi/what-are-kpi-reports.png"
   alt: "KPI reporting guide"
-tags: ["KPI", "Reporting", "Guide"]
+tags: ["Analytics", "How-To Guides"]
 ---
 
 I always begin my strategic work with strong KPI reporting because it gives me a clear understanding of where performance stands and what needs attention. When I see my KPIs presented clearly I feel more confident in every choice I make because the data reveals what truly moves the business in the right direction.

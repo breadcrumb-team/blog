@@ -1,12 +1,12 @@
 ---
 pubDate: 2025-04-15
 author: Victor Tang
-title: Zicket Revolutionizes Post Event Reporting with Breadcrumb AI
+title: Zicket Revolutionizes Post Event Reporting with Breadcrumb.ai
 description: "Zicket replaced manual spreadsheets with Breadcrumb.ai to deliver faster, AI-powered event reports that clients and sponsors love."
 image:
   url: "/blog/images/zicket-case-study-hero.png"
   alt: "Zicket Case Study"
-tags: ["Case Study", "Live Events"]
+tags: ["Case Study", "Live Events", "Customers"]
 ---
 
 

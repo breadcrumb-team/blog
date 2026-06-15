@@ -6,7 +6,7 @@ description: "Premium suite sales are up, but renewals are under pressure. Here'
 image:
   url: "/blog/images/premium-suite-revenue.png"
   alt: "Premium sports suite revenue intelligence dashboard"
-tags: ["Revenue Intelligence", "Premium Sales", "Sports Hospitality"]
+tags: ["Sports", "Sponsorship"]
 ---
 Premium suite sales are having a moment. Revenue is up. Waitlists are back. Some franchises are reporting record premium inventory growth.
 

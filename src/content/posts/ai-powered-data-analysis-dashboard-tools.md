@@ -6,7 +6,7 @@ description: "In today’s data-driven landscape, AI-powered dashboards simplify
 image:
   url: "https://site-assets.plasmic.app/c3996c5d43d5de82245e98a4cceaded8.png"
   alt: "#"
-tags: ["Product", "AI & Automation"]
+tags: ["Product", "AI"]
 ---
 
 In today’s data-driven world, making sense of large datasets can be a challenge for businesses and professionals alike. That’s where AI data analytic dashboards come in. These tools help users automatically generate insights and visualizations from their data, reducing the time spent on manual analysis. In this post, we’ll compare five popular AI-powered data dashboards, including our own product, Breadcrumb.ai.

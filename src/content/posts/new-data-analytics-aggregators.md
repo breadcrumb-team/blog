@@ -6,7 +6,7 @@ description: "The first wave of the internet disrupted media by shifting competi
 image:
   url: "https://site-assets.plasmic.app/2871e84ecfc10ca6e478b8807e9979a3.png"
   alt: "#"
-tags: ["AI & Automation"]
+tags: ["AI", "Product"]
 ---
 ### **Analysis is the New Media**
 

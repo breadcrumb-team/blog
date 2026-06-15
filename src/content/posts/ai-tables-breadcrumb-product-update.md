@@ -6,7 +6,7 @@ description: "New: AI-powered data tables with full control, customizable KPI ch
 image:
   url: "/blog/images/product-update-banner-future-communication.png"
   alt: "Product update - AI tables and KPI charts in Breadcrumb"
-tags: ["Product Update"]
+tags: ["Product"]
 ---
 We’re shipping a big set of upgrades that make building, exploring, and communicating data in Breadcrumb faster and more controllable than ever.
 

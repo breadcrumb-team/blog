@@ -6,7 +6,7 @@ description: "Discover the top 3 event reporting metrics partner-facing teams us
 image:
   url: "/blog/images/events/live-event-dashboards-future-communication.png"
   alt: "#"
-tags: ["AI & Automation", "Analytics"]
+tags: ["AI", "Live Events"]
 ---
 
 

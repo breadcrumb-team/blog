@@ -6,7 +6,7 @@ description: "PLN runs 18+ creator-led sports properties without a data team —
 image:
   url: "/blog/images/pro-league-network-case-study.png"
   alt: "Pro League Network"
-tags: ["Case Study", "Sports", "Social Analytics"]
+tags: ["Case Study", "Sports", "Customers"]
 ---
 
 ### Overview

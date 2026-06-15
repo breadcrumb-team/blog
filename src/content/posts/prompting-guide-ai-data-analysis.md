@@ -6,7 +6,7 @@ description: "Master the art of prompting for AI data analysis. Learn practical 
 image:
   url: "/blog/images/tyler-franta-iusJ25iYu1c-unsplash.jpg"
   alt: "Conversational AI Enhancement"
-tags: ["Guide"]
+tags: ["How-To Guides", "AI"]
 ---
 
 When you’re diving into data, the way you ask a question matters—but maybe not in the way you think.

@@ -6,7 +6,7 @@ description: "Learn how to transform your data insights into compelling, interac
 image:
   url: "/blog/images/how-to-present-reports-future-communication.png"
   alt: "Presenting and Sharing Reports in Breadcrumb"
-tags: ["Tutorial", "Reporting"]
+tags: ["How-To Guides", "Analytics"]
 ---
 
 At Breadcrumb, we believe a report should be more than a static snapshot. It should be a story, built for sharing and engagement. That's why we've designed our platform to make presenting your insights simple, polished, and interactive.

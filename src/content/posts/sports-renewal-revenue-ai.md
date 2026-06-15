@@ -6,7 +6,7 @@ description: "Sports teams face billions in renewal risk hidden across fragmente
 image:
   url: "/blog/images/renewal-revenue-ai-sports.png"
   alt: "AI-powered renewal risk detection dashboard showing $4.2M at risk with 60 days to act"
-tags: ["Revenue Intelligence", "Sponsorship", "AI Analytics"]
+tags: ["Sports", "Sponsorship", "AI"]
 ---
 
 The most expensive revenue leak in sports isn't ticket pricing or sponsorship valuation. It's the renewal window you didn't see closing until it was too late.

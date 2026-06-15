@@ -6,7 +6,7 @@ description: "A practical VP of ticketing 90 day plan for sports and live entert
 image:
   url: "/blog/images/vp-ticketing-90-day-plan.png"
   alt: "VP of Ticketing 90-day plan timeline"
-tags: ["Operator Playbook", "Ticketing", "Revenue Leadership"]
+tags: ["Sports", "Analytics"]
 ---
 
 The first 90 days of a new VP of Ticketing role set the tone for the next three years. Most new leaders know this. Almost none of them use the time well.
