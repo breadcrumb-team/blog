@@ -214,7 +214,7 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
 
           <div className={cls.right}>
             <a href={`${SITE_BASE}/contact-us`} className={cls.buttonPrimary}>
-              Learn more
+              Book a demo
             </a>
           </div>
         </div>
