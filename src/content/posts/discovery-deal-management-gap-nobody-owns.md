@@ -5,7 +5,7 @@ title: "Sponsorship Discovery vs Deal Management: The Recap Gap Nobody Owns"
 description: "SponsorUnited covers discovery. SponsorCX covers deal management. Sponsor recaps, performance reports, and ROI reports still live in a post-signing gap that decides renewals."
 image:
   url: "/blog/images/drafts/discovery-deal-management-gap-nobody-owns.png"
-  alt: "Sponsorship stack graphic comparing discovery, deal management, and the post-signing proof gap for sponsor recaps and ROI reports"
+  alt: "Text-free stock photo of a clean desk with an open report, laptop, and pen — suitable for sponsor recap and ROI reporting"
 tags: ["Sponsorship", "Sponsor Recaps", "ROI Reports", "Partnerships"]
 ---
 
