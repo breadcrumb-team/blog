@@ -17,10 +17,10 @@ If you sell sponsorships, this report sits between signed contract and next year
 
 Think of it as four moves in one package:
 
-1. **Contract** — what you promised, line by line
-2. **Delivered** — what actually shipped, with honest status
-3. **Proof** — photos, screenshots, counts, and notes that back each line
-4. **Renewal ask** — what to keep, fix, or grow next season
+1. **Contract**: what you promised, line by line
+2. **Delivered**: what actually shipped, with honest status
+3. **Proof**: photos, screenshots, counts, and notes that back each line
+4. **Renewal ask**: what to keep, fix, or grow next season
 
 Miss any of those four and sponsors fill the gap with their own story. That story is rarely kind to your renewal.
 
