@@ -5,7 +5,7 @@ title: "How to Measure Sponsorship ROI"
 description: "A rights holder guide to how to measure sponsorship ROI with a proof pack finance accepts: align objectives and baseline, delivery versus impact, honest outcomes and assumptions, and a renewal story that lands."
 image:
   url: "/blog/images/drafts/how-to-measure-sponsorship-roi.jpg"
-  alt: "Wide view of stadium seating in daylight with rows of blue seats and no visible text"
+  alt: "Close up of a white line on green grass on a soccer field"
 tags: ["Sponsorship", "Sponsor Recaps", "ROI", "Partnerships"]
 ---
 
