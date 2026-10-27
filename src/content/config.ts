@@ -12,7 +12,8 @@ const postsCollection = defineCollection({
         alt: z.string()
       }),
 
-      tags: z.array(z.string())
+      tags: z.array(z.string()),
+      faq: z.array(z.object({ question: z.string(), answer: z.string() })).optional()
     })
  });
 
