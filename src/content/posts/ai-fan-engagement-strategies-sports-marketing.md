@@ -96,7 +96,7 @@ Dashboard showing fan engagement insights powered by Breadcrumb
 
 ### Measuring the Impact of AI Driven Fan Engagement
 
-Strong fan engagement strategies rely on solid measurement. I always say, you can’t improve what you can’t see. AI takes the guesswork out of analytics by connecting data across every channel.
+Strong fan engagement strategies rely on solid measurement; see [fan data for sponsors](/blog/fan-data-for-sponsors/) to show audience value without sharing a fan list. I always say, you can’t improve what you can’t see. AI takes the guesswork out of analytics by connecting data across every channel.
 
 I really hate juggling between spreadsheets and applications, so i prefer tools that gives me a unified view showing social engagement, ticket sales, and sentiment all in one place. With AI, I can even ask questions directly: “Which engagement campaign performed best this month?” or “Which fan segments are most active right now?”
 
