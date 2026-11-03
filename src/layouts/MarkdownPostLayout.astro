@@ -5,7 +5,8 @@ const { frontmatter } = Astro.props;
 
 const postUrl = `https://www.breadcrumb.ai/blog/${frontmatter.slug || ''}`;
 const imageUrl = `https://www.breadcrumb.ai${frontmatter.image.url}`;
-const dateIso = new Date(frontmatter.pubDate).toISOString();
+const datePublishedIso = new Date(frontmatter.pubDate).toISOString();
+const dateModifiedIso = new Date(frontmatter.dateModified ?? frontmatter.pubDate).toISOString();
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -14,8 +15,8 @@ const jsonLd = {
       "@type": "BlogPosting",
       "headline": frontmatter.title,
       "description": frontmatter.description,
-      "datePublished": dateIso,
-      "dateModified": dateIso,
+      "datePublished": datePublishedIso,
+      "dateModified": dateModifiedIso,
       "author": {
         "@type": "Person",
         "name": "Victor Tang"
