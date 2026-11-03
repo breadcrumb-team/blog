@@ -59,7 +59,7 @@ Revenue by region and quarter shown in a pivot table.
 
 If I want to go deeper, I add another layer by breaking the data down by quarter. This lets me see not only which regions have the highest revenue but also how that revenue changes over time. A quick sort or filter shows me trends, anomalies, or sudden drops. This step is all about discovery. The pivot table gives me the answers to the questions I am still forming in my head.
 
-If you are working from spreadsheets, these tips help a lot: [How to Prepare Your Spreadsheet for Data Analysis](/blog/how-to-prepare-your-spreadsheet-for-data-analysis).
+If you are working from spreadsheets, these tips help a lot: [How to Prepare Your Spreadsheet for Data Analysis](/blog/how-to-prepare-your-spreadsheet-for-data-analysis/).
 
 ---
 
@@ -79,7 +79,7 @@ Quarterly revenue trends by region visualized as a line chart.
 
 If I am sharing this with a team, I might use a column chart instead, comparing total sales side by side. This makes it easier to talk about which region is leading and what might be driving the difference. The pivot chart turns my exploration into a story that others can see and respond to. It takes the insights hidden in rows of data and makes them visible at a glance.
 
-For turning insights into a clear narrative, see [How to Present and Share Reports in Breadcrumb](/blog/how-to-present-reports).
+For turning insights into a clear narrative, see [How to Present and Share Reports in Breadcrumb](/blog/how-to-present-reports/).
 
 ### **Other Common Pivot Chart Examples**
 
@@ -125,7 +125,7 @@ This makes the experience of working with data seamless and fluid. I no longer w
 
 See how to build pivots and switch to charts with AI.
 
-**[Read the guide →](/blog/breadcrumb-ai-full-feature-walkthrough)**
+**[Read the guide →](/blog/breadcrumb-ai-full-feature-walkthrough/)**
 
 ---
 
