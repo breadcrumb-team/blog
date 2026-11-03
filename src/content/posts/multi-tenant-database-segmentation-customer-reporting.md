@@ -19,7 +19,7 @@ When you’re building a SaaS application, chances are you store all customer da
 
 That’s perfectly fine for most use cases. When your app controls every data interaction, it’s easy to enforce permissions and ensure customers only access their own data.
 
-But things change dramatically once you add **analytics and reporting,** especially with [**AI analytics**](https://www.breadcrumb.ai/blog/best-tableau-alternative-ai-reporting) or [**agentic reporting**](https://www.breadcrumb.ai/blog/what-is-agentic-reporting), where AI agents are allowed to query and reason over your data.
+But things change dramatically once you add **analytics and reporting,** especially with [**AI analytics**](https://www.breadcrumb.ai/blog/best-tableau-alternative-ai-reporting/) or [**agentic reporting**](https://www.breadcrumb.ai/blog/what-is-agentic-reporting/), where AI agents are allowed to query and reason over your data.
 
 That’s where **database segmentation** becomes critical.
 
@@ -176,4 +176,4 @@ Breadcrumb includes **row-level security (RLS)** out of the box with built-in **
 
 Breadcrumb also integrates seamlessly with **separate-schema** or **separate-database** segmentation strategies. With our **Breadcrumb APIs**, you can create individualized reports, automate insights, and empower customers with **AI-driven analytics**. Our AI agents adapt to each tenant's unique reporting needs by automatically handling differences in data structures, insights, and schema definitions.
 
-For details, visit our [documentation](https://docs.breadcrumb.ai/) or explore our post on [agentic reporting](https://www.breadcrumb.ai/blog/what-is-agentic-reporting).
+For details, visit our [documentation](https://docs.breadcrumb.ai/) or explore our post on [agentic reporting](https://www.breadcrumb.ai/blog/what-is-agentic-reporting/).

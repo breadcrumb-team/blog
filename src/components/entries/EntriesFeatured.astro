@@ -27,7 +27,7 @@ const base = import.meta.env.BASE_URL.endsWith("/")
       <div class="flex flex-wrap gap-2 mt-1">
         {tags.map((tag) => (
           <a
-            href={`${base}tags/${tag}`}
+            href={`${base}tags/${tag}/`}
             class="text-xs font-medium px-3 py-1 rounded-full border border-zinc-200 text-zinc-600 hover:border-black hover:text-black transition-colors"
           >
             {tag}

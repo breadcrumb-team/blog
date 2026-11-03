@@ -35,7 +35,7 @@ const base = import.meta.env.BASE_URL.endsWith("/")
       <div class="mt-4 flex space-x-2 flex-wrap gap-y-2">
         {
           tags.map((tag) => (
-            <a href={`${base}tags/${tag}`} class="text-sm bg-white px-3 rounded-full font-medium text-black hover:text-blue-500">{tag}</a>
+            <a href={`${base}tags/${tag}/`} class="text-sm bg-white px-3 rounded-full font-medium text-black hover:text-blue-500">{tag}</a>
           ))
         }
       </div>

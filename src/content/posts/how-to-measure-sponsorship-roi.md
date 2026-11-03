@@ -1,5 +1,6 @@
 ---
 pubDate: 2026-10-05
+dateModified: 2026-11-02
 author: Victor Tang
 title: "How to Measure Sponsorship ROI"
 description: "A rights holder guide to how to measure sponsorship ROI with a proof pack finance accepts: align objectives and baseline, delivery versus impact, honest outcomes and assumptions, and a renewal story that lands."
@@ -7,9 +8,16 @@ image:
   url: "/blog/images/drafts/how-to-measure-sponsorship-roi.jpg"
   alt: "Close up of a white line on green grass on a soccer field"
 tags: ["Sponsorship", "Sponsor Recaps", "ROI", "Partnerships"]
+faq:
+  - question: "What is the fastest way to measure sponsorship ROI?"
+    answer: "Write the objectives and baseline first, keep a live delivery chart, then combine direct revenue with stated assumptions for the rest. Put sources and windows beside each claim so finance can follow it."
+  - question: "What counts as proof in a sponsorship ROI report?"
+    answer: "Proof is a source you can show without a speech. Use exports from ticketing, ecommerce, CRM, email, social, and activation logs. Label estimates and state the method in one line."
+  - question: "How do you measure event sponsorship ROI?"
+    answer: "Use the same framework for a single event. Run a short wrap within two weeks, report direct sales and code use, then add expected value from demos, trials, and pipeline with the window you chose."
 ---
 
-You measure sponsorship ROI by agreeing goals and a baseline before the season, tracking delivery against the contract, and tying outcomes to those goals with evidence and stated assumptions. Add full cost, not just the rights fee. Separate what you can prove from what you can only estimate, and time your windows so signals can show up. Put the proof and the math in a file a sponsor can forward to finance without rewriting it.
+You measure sponsorship ROI by agreeing goals and a baseline before the season, tracking delivery against the contract, and tying outcomes to those goals with evidence and stated assumptions. Use the Proof First Framework to keep it consistent, separate measured results from estimates, and include the full cost. Put the proof and the math in a file a sponsor can forward to finance without rewriting it.
 
 Here is the short version a property can use today:
 
@@ -31,6 +39,47 @@ Think in two layers:
 - **Return on investment:** did the value of those outcomes exceed the full cost to create them
 
 You can say yes to return on objectives while still working on a credible investment calculation. You cannot claim investment wins without the objectives story.
+
+## A Sponsorship ROI Measurement Framework You Can Reuse
+
+We call it the Proof First Framework. It is a simple sponsorship ROI measurement framework you can reuse across partners and seasons. It has four steps:
+
+1. Define success and the baseline  
+   - Write goals in plain words and set a baseline you will compare against.  
+   - Link each goal to a metric and a source you already trust.  
+   - For comparability, keep definitions stable across partners and seasons and document them in one place.
+
+2. Track delivery and evidence  
+   - Keep a live fulfillment chart with status and proof beside each asset.  
+   - Proof is an export you can show without a speech. Use ticketing, ecommerce, CRM, email, social, and activation logs.  
+   - Use the same labels every time so numbers line up year over year.
+
+3. Attribute outcomes with stated method  
+   - Use direct revenue when you can. For the rest, state the method in one line.  
+   - Name the window you used and what you left out.  
+   - Keep valuation rules modest and disclosed so finance can accept them.
+
+4. Calculate ROI and write the renewal note  
+   - ROI = (Measured value minus full cost) divided by full cost.  
+   - Close with keep, change, and grow that follow from the data.  
+   - Add links to proof in a folder a sponsor can open later.
+
+### The framework as a table
+
+| Stage | What to measure | Evidence source |
+| --- | --- | --- |
+| Define success | Objectives and baseline that match the sponsor goal | Brief with targets, last season numbers |
+| Track delivery | Contracted assets with honest status | Fulfillment chart with platform exports |
+| Attribute outcomes | Direct revenue and expected value with method | Codes and links, CRM, trials and demos |
+| Calculate ROI | ROI math with caveats beside it | One page that names sources and windows |
+
+### Measurement standards that keep numbers comparable
+
+- One written definition for each metric  
+- The same baseline period every season  
+- Name the source system for every number  
+- Disclose any valuation or media value method and its rates  
+- Separate measured results from estimates
 
 ## Agree objectives and the baseline before the season
 
@@ -72,6 +121,10 @@ Measured value comes from two places:
 - **Proxy outcomes with stated assumptions:** pipeline value times a realistic close rate, average deal value times expected conversion from trials or demos, lifetime value times expected retention lift for a defined segment
 
 Attribution windows matter. Use a window that makes sense for how outcomes show up. A code redemption can be a same day signal. A bank account or a seat license can take weeks or months. Say which signals you counted and which you did not.
+
+### Apply it to a single event
+
+Event sponsorship ROI uses the same steps with a tighter clock. Run a short wrap within about two weeks. Report direct sales and code use first. Add expected value from demos, trials, and pipeline with the window you chose. Link to the [post event sponsorship report](/blog/post-event-sponsorship-report/) and your [sponsorship performance report](/blog/sponsorship-performance-report/) so the story fits in the wider program. For how to rank evidence across methods, see the [sponsorship attribution evidence ladder](/blog/sponsorship-attribution-evidence-ladder/) and for audience proof see [fan data for sponsors](/blog/fan-data-for-sponsors/).
 
 ## Worked example with round numbers only
 
