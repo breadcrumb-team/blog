@@ -11,7 +11,7 @@ tags: ["AI", "Analytics"]
 
 Agentic reporting uses AI-powered reporting agents to watch your most important metrics, unify data from multiple sources, and deliver narrative insights your stakeholders can explore without waiting on an analyst or wrestling with a BI tool.
 
-> Read more: [What is Agentic Reporting?](https://www.breadcrumb.ai/blog/what-is-agentic-reporting)
+> Read more: [What is Agentic Reporting?](https://www.breadcrumb.ai/blog/what-is-agentic-reporting/)
 
 ## Agentic reporting and why it matters
 
@@ -140,7 +140,7 @@ Our platform:
 - **Delivers trustworthy insights**: Built-in AI safeguards ensure agents respect your data rules and don't hallucinate definitions
 - **Scales as you grow**: Start with basic standardization; refine context as your team discovers what matters most
 
-Learn more about [how to prepare spreadsheets for data analysis](https://www.breadcrumb.ai/blog/how-to-prepare-your-spreadsheet-for-data-analysis) or explore our [complete guide to agentic reporting](https://www.breadcrumb.ai/blog/what-is-agentic-reporting).
+Learn more about [how to prepare spreadsheets for data analysis](https://www.breadcrumb.ai/blog/how-to-prepare-your-spreadsheet-for-data-analysis/) or explore our [complete guide to agentic reporting](https://www.breadcrumb.ai/blog/what-is-agentic-reporting/).
 
 ## Key Takeaways: Data Preparation Best Practices
 

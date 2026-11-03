@@ -28,9 +28,9 @@ const sortedPosts = allPosts
 <BaseLayout seo={{
   title: "Breadcrumb | Turn raw data into reports your customers want",
   description: "AI-native data analytics reporting across all your customers at scale. Automate personalized reporting with AI-powered insights, data visualization, and narrative generation.",
-  canonical: "https://www.breadcrumb.ai",
+  canonical: "https://www.breadcrumb.ai/blog/",
   openGraph: {
-    url: "https://www.breadcrumb.ai",
+    url: "https://www.breadcrumb.ai/blog/",
     title: "Breadcrumb | AI-powered Data Analytics & Reporting",
     description: "Transform raw data into actionable insights with AI-powered analytics. Automate reporting, visualize data, and deliver personalized insights at scale.",
     images: [
@@ -60,7 +60,7 @@ const sortedPosts = allPosts
           ["Case Study", "Customers", "How-To Guides", "Sports", "Sponsorship", "Live Events", "Analytics", "AI", "Product"].map((tag) => (
             <li>
               <a
-                href={`${import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/'}tags/${tag}`}
+                href={`${import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/'}tags/${tag}/`}
                 class="inline-block px-4 py-1.5 rounded-full border border-zinc-200 text-xs font-semibold text-zinc-600 hover:border-black hover:text-black transition-colors"
               >
                 {tag}
@@ -75,7 +75,7 @@ const sortedPosts = allPosts
           <ul class="flex flex-col gap-8">
             {featuredPosts.map((post) => (
               <EntriesFeatured
-                url={`${(import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/')}${post.slug}`}
+                url={`${(import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/')}${post.slug}/`}
                 title={post.data.title}
                 description={post.data.description}
                 alt={post.data.title}
@@ -97,7 +97,7 @@ const sortedPosts = allPosts
         {
           sortedPosts.map((post) => (
             <EntriesOne
-              url={`${(import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/')}${post.slug}`}
+              url={`${(import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : import.meta.env.BASE_URL + '/')}${post.slug}/`}
               title={post.data.title}
               description={post.data.description}
               alt={post.data.title}

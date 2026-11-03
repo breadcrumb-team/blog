@@ -3,10 +3,10 @@ import BaseLayout from "./BaseLayout.astro";
 import { formatDate } from "@/utils/dateFormat";
 const { frontmatter } = Astro.props;
 
-const postUrl = `https://www.breadcrumb.ai/blog/${frontmatter.slug || ''}`;
+const postUrl = `https://www.breadcrumb.ai/blog/${frontmatter.slug || ''}/`;
 const imageUrl = `https://www.breadcrumb.ai${frontmatter.image.url}`;
-const datePublishedIso = new Date(frontmatter.pubDate).toISOString();
-const dateModifiedIso = new Date(frontmatter.dateModified ?? frontmatter.pubDate).toISOString();
+const publishedIso = new Date(frontmatter.pubDate).toISOString();
+const modifiedIso = (frontmatter.dateModified ? new Date(frontmatter.dateModified) : new Date(frontmatter.pubDate)).toISOString();
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -15,8 +15,9 @@ const jsonLd = {
       "@type": "BlogPosting",
       "headline": frontmatter.title,
       "description": frontmatter.description,
-      "datePublished": datePublishedIso,
-      "dateModified": dateModifiedIso,
+      "datePublished": publishedIso,
+      "dateModified": modifiedIso,
+      "url": postUrl,
       "author": {
         "@type": "Person",
         "name": "Victor Tang"
@@ -74,9 +75,9 @@ const jsonLd = {
 <BaseLayout seo={{
   title: `${frontmatter.title} | Breadcrumb`,
   description: frontmatter.description,
-  canonical: `https://www.breadcrumb.ai/blog/${frontmatter.slug || ''}`,
+  canonical: `https://www.breadcrumb.ai/blog/${frontmatter.slug || ''}/`,
   openGraph: {
-    url: `https://www.breadcrumb.ai/blog/${frontmatter.slug || ''}`,
+    url: `https://www.breadcrumb.ai/blog/${frontmatter.slug || ''}/`,
     title: `${frontmatter.title} | Breadcrumb`,
     description: frontmatter.description,
     images: [
@@ -124,7 +125,7 @@ const jsonLd = {
             {
               frontmatter.tags.map((tag) => (
                 <span class="inline-flex items-center uppercase    hover:text-blue-500   text-xs font-medium text-black">
-                  <a href={`/blog/tags/${tag}`}>{tag}</a>
+                  <a href={`/blog/tags/${tag}/`}>{tag}</a>
                 </span>
               ))
             }

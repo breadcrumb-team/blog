@@ -14,7 +14,7 @@ We understand how important it is to share your insights and come up with busine
 
 ### Create Visualizations For your Dashboard
 
-With Breadcrumb’s new sharing and collaboration features, these hurdles are a thing of the past. Breadcrumb allows you to connect to multiple data sources to create dynamic data visualizations, including Airtable, making analysis more flexible and intuitive. Whether for project management, content calendars, customer relationship management, or more, Breadcrumb ensures that your data is not only accessible but also actionable and visually engaging for your stakeholders. Now, you can instantly share your visualizations, keeping your team informed and agile. [Learn how to get started with Airtable using Breadcrumb](https://www.breadcrumb.ai/blog/airtable-integration-with-breadcrumb).
+With Breadcrumb’s new sharing and collaboration features, these hurdles are a thing of the past. Breadcrumb allows you to connect to multiple data sources to create dynamic data visualizations, including Airtable, making analysis more flexible and intuitive. Whether for project management, content calendars, customer relationship management, or more, Breadcrumb ensures that your data is not only accessible but also actionable and visually engaging for your stakeholders. Now, you can instantly share your visualizations, keeping your team informed and agile. [Learn how to get started with Airtable using Breadcrumb](https://www.breadcrumb.ai/blog/airtable-integration-with-breadcrumb/).
 
 ![](https://img.plasmic.app/img-optimizer/v1/img?src=592a1fe20735885da813f2ecc1a131b5.png&f=webp&q=75)
 
