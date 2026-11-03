@@ -1,5 +1,6 @@
 ---
 pubDate: 2026-10-22
+dateModified: 2026-11-02
 author: Victor Tang
 title: "Sponsorship Performance Report: What to Send Partners Every Month, Not Just at Season End"
 description: "A sponsorship performance report shows each partner what they bought, what was delivered, and what it earned, updated through the season. Here's how to build one."
@@ -15,7 +16,7 @@ This guide is for partnership services, activation, and account managers at team
 
 ## What is a sponsorship performance report?
 
-A sponsorship performance report is a living document, one per partner, that tracks delivery and results across the whole term of a deal. It answers one question at any point in the season: how is this partnership doing right now?
+A sponsorship performance report is a season long, per partner report that tracks delivery and results across the whole term of a deal. It answers one question at any point in the season: how is this partnership doing right now?
 
 That makes it different from two documents you probably already send. A [post event sponsorship report](/blog/post-event-sponsorship-report) covers one event or one moment, after it ends. A [sponsorship fulfillment report](/blog/sponsorship-fulfillment-report) proves you delivered the contracted assets.
 
