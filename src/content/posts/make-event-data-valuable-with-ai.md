@@ -143,7 +143,7 @@ With a traditional report, it might take your team days to process and visualize
 
 This kind of data, when delivered clearly and quickly, allows you to optimize future layouts, better allocate resources, and show real ROI to your sponsors.
 
-#### [See Zicket case study](https://www.breadcrumb.ai/blog/zicket-ai-event-reporting-usecase)
+#### [See Zicket case study](https://www.breadcrumb.ai/blog/zicket-ai-event-reporting-usecase/)
 ---
 
 ### Why this matters for the entertainment industry

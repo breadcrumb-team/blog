@@ -165,7 +165,7 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
                 role="menu"
               >
                 <div className={cls.learnGrid}>
-                  <a href={`${SITE_BASE}/blog`} className={cls.usecaseCard} role="menuitem">
+                  <a href={`${SITE_BASE}/blog/`} className={cls.usecaseCard} role="menuitem">
                     <h3 className={cls.usecaseTitle}>Blog</h3>
                     <p className={cls.usecaseDescription}>Insights, updates, and stories from the Breadcrumb team.</p>
                   </a>
@@ -276,7 +276,7 @@ export default function HeaderMainLocal(props: HeaderMainLocalProps) {
               </button>
               <div className={`${cls.mobileSubMenu} ${mobileLearnOpen ? cls.mobileSubMenuOpen : ''}`}>
                 <div>
-                  <a href={`${SITE_BASE}/blog`} className={cls.mobileSubLink} onClick={closeMobileMenu}>Blog</a>
+                  <a href={`${SITE_BASE}/blog/`} className={cls.mobileSubLink} onClick={closeMobileMenu}>Blog</a>
                   <a href="https://docs.breadcrumb.ai/" target="_blank" rel="noopener noreferrer" className={cls.mobileSubLink} onClick={closeMobileMenu}>Docs</a>
                 </div>
               </div>

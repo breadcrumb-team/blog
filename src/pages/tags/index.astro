@@ -12,9 +12,9 @@ const pageTitle = "Tag Index";
 <BaseLayout seo={{
   title: "All Blog Tags | Breadcrumb",
   description: "Browse all blog post tags and categories. Find content organized by topics including AI analytics, data reporting, business intelligence, and more.",
-  canonical: "https://www.breadcrumb.ai/tags",
+  canonical: "https://www.breadcrumb.ai/blog/tags/",
   openGraph: {
-    url: "https://www.breadcrumb.ai/tags",
+    url: "https://www.breadcrumb.ai/blog/tags/",
     title: "All Blog Tags | Breadcrumb",
     description: "Browse all blog post tags and categories. Find content organized by topics including AI analytics, data reporting, business intelligence, and more.",
     images: [
@@ -40,7 +40,7 @@ const pageTitle = "Tag Index";
       <ol role="list" class="flex flex-col space-y-2 mt-6">
         {sortedTags.map((tag) => (
           <li >
-            <a class="text-4xl tracking-tight text-balance font-medium font-display text-black md:text-6xl hover:text-blue-500" href={`/tags/${tag}`}>{tag}</a>
+            <a class="text-4xl tracking-tight text-balance font-medium font-display text-black md:text-6xl hover:text-blue-500" href={`/blog/tags/${tag}/`}>{tag}</a>
           </li>
         ))}
       </ol>
