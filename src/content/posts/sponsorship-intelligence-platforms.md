@@ -184,13 +184,12 @@ Breadcrumb is the commercial layer for the partner reporting job. It connects wh
 
 It is not a prospecting database and it does not run its own computer vision. Teams that need those should pair it with tools from the groups above.
 
-One example: for [CarJitsu and Nissan](https://www.breadcrumb.ai/), Breadcrumb tracked 155 posts and built a live report Nissan could ask questions of. The campaign delivered 135% of its impression goal and an estimated $859K in earned media value, within an estimated range of $483K to $1.3M.
+One example: for [CarJitsu and Nissan](https://www.breadcrumb.ai/), Breadcrumb tracked 155 posts and built a live report Nissan could ask questions of. The campaign delivered 135% of its impression goal and an estimated $483K to $1.3M in earned media value.
 
-<!-- CUSTOMER QUOTE PLACEHOLDER: add an approved quote from a rights holder on how they chose a reporting tool. Do not publish until the customer team supplies and approves it. -->
-[Customer quote placeholder]
+ 
+ 
 
-![Sample recap screenshot placeholder](/blog/images/drafts/sample-recap-placeholder.jpg)
-[Sample recap screenshot placeholder]
+ 
 
 ## The short version
 
