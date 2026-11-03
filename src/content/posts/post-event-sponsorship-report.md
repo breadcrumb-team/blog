@@ -1,5 +1,6 @@
 ---
 pubDate: 2026-10-01
+dateModified: 2026-11-02
 author: Victor Tang
 title: "What to Put in a Post Event Sponsorship Report"
 description: "A rights holder guide to the post event sponsorship report: what to send within about 14 days, a deliverables table, proof, outcomes, and a clear renewal note."
@@ -13,7 +14,7 @@ A **post event sponsorship report** is the short, sponsor specific wrap you send
 
 Think days, not months. For most properties, the useful window is about **14 days** after the event. Longer than that and your champion has already closed the story in their head, or rebuilt it without you.
 
-This is not the same job as a full season [sponsorship fulfillment report](/blog/sponsorship-fulfillment-report/). Fulfillment is the contract ledger across a deal. The post event report is the fast wrap for one activation window. Same honesty. Tighter clock.
+This is not the same job as a full season [sponsorship fulfillment report](/blog/sponsorship-fulfillment-report/). Fulfillment is the contract ledger across a deal. The post event report is the fast wrap for one activation window. Same honesty. Tighter clock. For the season long per partner view that updates through the season, see our [sponsorship performance report](/blog/sponsorship-performance-report/).
 
 ## What sponsors actually want in the wrap
 
