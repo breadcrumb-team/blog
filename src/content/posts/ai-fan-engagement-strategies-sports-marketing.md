@@ -10,7 +10,7 @@ image:
 tags: ["Sports", "AI"]
 faq:
   - question: "How does AI help personalize ticket offers for fans?"
-    answer: "AI reviews each fan’s history, interests, and price sensitivity, then suggests the right seat, time, and bundle. It tests messages across channels and learns what converts. The fan sees a clear next step with simple checkout or wallet ready links. Teams reduce discounting and lift yield without extra work."
+    answer: "AI reviews each fan’s history, interests, and price sensitivity, then suggests the right seat, time, and bundle. It tests messages across channels and learns what converts. The fan sees a clear next step with simple checkout or links that open straight in a mobile wallet. Teams reduce discounting and lift yield without extra work."
   - question: "How does AI driven fan engagement work?"
     answer: "AI brings data from ticketing, apps, and social into one view, then predicts what content or offer matters next. It triggers timely moments during games and follows up after. Marketers steer the plan, while AI handles the heavy lift so every fan journey feels personal at scale."
 ---
@@ -96,15 +96,15 @@ It’s not about guessing anymore—it’s about precision.
 
 ## How to measure an AI fan activation for sponsors
 
-Answer first. Sponsors want proof that the right fans saw the message and did something that matters. Use this simple checklist when you report the outcome.
+Sponsors want proof that the right fans saw the message and then did something that matters. Use this checklist when you report the result.
 
 - Reach in the target segment: unique fans reached inside the agreed audience
 - Engagement depth: time spent, replies, saves, shares, and repeat visits
 - Actions taken: sign ups, scans, app installs, redemptions, and purchases
 - Sponsor attributable outcomes: leads, orders, or visits within the flight window
-- Aggregate audience insight not raw fan lists: segment sizes and interests
+- Aggregate audience insight, not raw fan lists: segment sizes and interests
 
-Report it with one scorecard that shows the goal, what ran, and what changed. Add a short narrative, a few screenshots, and a link to your explainer on [fan data for sponsors](/blog/fan-data-for-sponsors/). Keep raw data in your workspace; share only the summary and the why it matters.
+Report it as one scorecard that shows the goal, what ran, and what changed. Add a short narrative and a few screenshots. To show audience value without handing over a fan list, see [fan data for sponsors](/blog/fan-data-for-sponsors/). Keep raw data in your own systems and share the summary with sponsors.
 
 ## The Data Behind the Cheers
 
