@@ -9,15 +9,15 @@ image:
   alt: "Close up of a white line on green grass on a soccer field"
 tags: ["Sponsorship", "Sponsor Recaps", "ROI", "Partnerships"]
 faq:
-  - question: "What is the fastest way to measure sponsorship ROI"
+  - question: "What is the fastest way to measure sponsorship ROI?"
     answer: "Write the objectives and baseline first, keep a live delivery chart, then combine direct revenue with stated assumptions for the rest. Put sources and windows beside each claim so finance can follow it."
-  - question: "What counts as proof in a sponsorship ROI report"
+  - question: "What counts as proof in a sponsorship ROI report?"
     answer: "Proof is a source you can show without a speech. Use exports from ticketing, ecommerce, CRM, email, social, and activation logs. Label estimates and state the method in one line."
-  - question: "How do you measure event sponsorship ROI"
+  - question: "How do you measure event sponsorship ROI?"
     answer: "Use the same framework for a single event. Run a short wrap within two weeks, report direct sales and code use, then add expected value from demos, trials, and pipeline with the window you chose."
 ---
 
-You measure sponsorship ROI by agreeing goals and a baseline before the season, tracking delivery against the contract, and tying outcomes to those goals with evidence and stated assumptions. Add full cost, not just the rights fee. Separate what you can prove from what you can only estimate, and time your windows so signals can show up. Put the proof and the math in a file a sponsor can forward to finance without rewriting it.
+You measure sponsorship ROI by agreeing goals and a baseline before the season, tracking delivery against the contract, and tying outcomes to those goals with evidence and stated assumptions. Use the Proof First Framework to keep it consistent, separate measured results from estimates, and include the full cost. Put the proof and the math in a file a sponsor can forward to finance without rewriting it.
 
 Here is the short version a property can use today:
 
@@ -40,9 +40,9 @@ Think in two layers:
 
 You can say yes to return on objectives while still working on a credible investment calculation. You cannot claim investment wins without the objectives story.
 
-## Sponsorship ROI Measurement Framework
+## A Sponsorship ROI Measurement Framework You Can Reuse
 
-We call it the Proof First Framework. It is a simple sponsorship roi measurement framework you can reuse across partners and seasons. It has four steps:
+We call it the Proof First Framework. It is a simple sponsorship ROI measurement framework you can reuse across partners and seasons. It has four steps:
 
 1. Define success and the baseline  
    - Write goals in plain words and set a baseline you will compare against.  
@@ -72,6 +72,14 @@ We call it the Proof First Framework. It is a simple sponsorship roi measurement
 | Track delivery | Contracted assets with honest status | Fulfillment chart with platform exports |
 | Attribute outcomes | Direct revenue and expected value with method | Codes and links, CRM, trials and demos |
 | Calculate ROI | ROI math with caveats beside it | One page that names sources and windows |
+
+### Measurement standards that keep numbers comparable
+
+- One written definition for each metric  
+- The same baseline period every season  
+- Name the source system for every number  
+- Disclose any valuation or media value method and its rates  
+- Separate measured results from estimates
 
 ## Agree objectives and the baseline before the season
 
