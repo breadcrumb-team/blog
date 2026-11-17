@@ -10,8 +10,8 @@ import react from '@astrojs/react';
 export default defineConfig({
   trailingSlash: 'never',
   build: {
-    // Use file-based output so /blog/post resolves to /blog/post.html on Vercel
-    format: 'file',
+    // Restore directory output so /blog/slug/ maps to slug/index.html for the Vercel->GitHub Pages proxy
+    format: 'directory',
   },
    vite: {
     plugins: [tailwindcss()],
