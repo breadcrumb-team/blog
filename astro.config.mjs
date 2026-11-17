@@ -8,7 +8,11 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  trailingSlash: 'always',
+  trailingSlash: 'never',
+  build: {
+    // Use file-based output so /blog/post resolves to /blog/post.html on Vercel
+    format: 'file',
+  },
    vite: {
     plugins: [tailwindcss()],
     resolve: {
